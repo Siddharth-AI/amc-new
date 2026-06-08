@@ -1,0 +1,413 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   AMC SYSTEMS — Belgian-elegant design tokens (logo-derived)
+   Ink navy · single teal accent · warm earth · off-white base
+   ============================================================ */
+:root {
+  /* Brand (from logo) */
+  --color-primary: #16a5a3;        /* teal accent  */
+  --color-primary-dark: #0f7f7d;
+  --color-primary-light: #4cc4c1;
+
+  --color-navy: #1e3358;           /* ink navy     */
+  --color-navy-dark: #162642;
+  --color-navy-light: #41506a;
+
+  --color-brown: #4e3826;          /* warm earth   */
+  --color-brown-dark: #3a2a1c;
+  --color-brown-light: #8a6f57;
+
+  /* Surfaces & text */
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-surface-sunken: #f3f1ec;
+  --color-background: #faf9f6;      /* off-white page */
+
+  --color-text-primary: #14181c;    /* near-black ink */
+  --color-text-secondary: #41506a;
+  --color-text-muted: #5a6472;
+  --color-border: #e8e5de;          /* warm subtle    */
+  --color-border-strong: #d8d3c8;
+
+  /* kept for legacy refs (no gradient soup in new design) */
+  --gradient-primary: linear-gradient(135deg, #16a5a3, #1e3358);
+  --gradient-secondary: linear-gradient(135deg, #4cc4c1, #41506a);
+  --shadow-glow: 0 10px 30px -12px rgba(30, 51, 88, 0.18);
+}
+
+/* Light-only elegant brand — dark mode mirrors light */
+.dark {
+  --color-primary: #16a5a3;
+  --color-primary-dark: #0f7f7d;
+  --color-primary-light: #4cc4c1;
+  --color-navy: #1e3358;
+  --color-navy-dark: #162642;
+  --color-navy-light: #41506a;
+  --color-brown: #4e3826;
+  --color-brown-dark: #3a2a1c;
+  --color-brown-light: #8a6f57;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-surface-sunken: #f3f1ec;
+  --color-background: #faf9f6;
+  --color-text-primary: #14181c;
+  --color-text-secondary: #41506a;
+  --color-text-muted: #5a6472;
+  --color-border: #e8e5de;
+  --color-border-strong: #d8d3c8;
+  --gradient-primary: linear-gradient(135deg, #16a5a3, #1e3358);
+  --gradient-secondary: linear-gradient(135deg, #4cc4c1, #41506a);
+  --shadow-glow: 0 10px 30px -12px rgba(30, 51, 88, 0.18);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    line-height: 1.65;
+    letter-spacing: -0.005em;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "ss01", "cv01";
+  }
+
+  /* Editorial display headings (Belgian-elegant) */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 6.5vw, 5.5rem);
+    letter-spacing: -0.03em;
+  }
+  h2 {
+    font-size: clamp(2rem, 5vw, 3.75rem);
+  }
+  h3 {
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  }
+  h4 {
+    font-size: clamp(1.25rem, 3vw, 1.875rem);
+  }
+  h5 {
+    font-size: clamp(1.05rem, 2.5vw, 1.375rem);
+  }
+  h6 {
+    font-size: clamp(0.95rem, 2vw, 1.125rem);
+  }
+
+  p {
+    color: var(--color-text-muted);
+    line-height: 1.75;
+  }
+
+  /* Overline / eyebrow label */
+  .eyebrow {
+    font-family: var(--font-sans), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  ::selection {
+    background-color: rgba(22, 165, 163, 0.18);
+    color: var(--color-navy);
+  }
+}
+
+@layer components {
+  .glass {
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(226, 232, 240, 0.7);
+  }
+
+  .glass-strong {
+    backdrop-filter: blur(24px);
+    background-color: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(226, 232, 240, 0.85);
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-white {
+    background: linear-gradient(to right, #ffffff, #e0e7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .card-hover {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px -12px rgba(29, 168, 171, 0.15);
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Mobile-first responsive utilities */
+  .mobile-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .mobile-text {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  .mobile-heading {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  .mobile-subheading {
+    @apply text-lg sm:text-xl md:text-2xl;
+  }
+
+  .mobile-grid {
+    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .mobile-flex {
+    @apply flex-col sm:flex-row;
+  }
+
+  .mobile-gap {
+    @apply gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  .mobile-space {
+    @apply space-y-4 sm:space-y-6 lg:space-y-8;
+  }
+
+  .mobile-rounded {
+    @apply rounded-lg sm:rounded-xl lg:rounded-2xl;
+  }
+
+  .mobile-shadow {
+    @apply shadow-md sm:shadow-lg lg:shadow-xl;
+  }
+}
+
+/* TipTap Editor Styles */
+.ProseMirror {
+  outline: none;
+  min-height: 300px;
+  padding: 1rem;
+}
+
+.ProseMirror ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.ProseMirror ul li {
+  margin: 0.25rem 0;
+  padding-left: 0.5rem;
+}
+
+.ProseMirror ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.ProseMirror ol li {
+  margin: 0.25rem 0;
+  padding-left: 0.5rem;
+}
+
+.ProseMirror blockquote {
+  border-left: 4px solid #1DA8AB;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #4B5563;
+  background-color: #F9FAFB;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.ProseMirror h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.ProseMirror h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.75rem 0;
+}
+
+.ProseMirror h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.ProseMirror p {
+  margin: 0.5rem 0;
+}
+
+.ProseMirror strong {
+  font-weight: 700;
+}
+
+.ProseMirror em {
+  font-style: italic;
+}
+
+.ProseMirror s {
+  text-decoration: line-through;
+}
+
+.ProseMirror hr {
+  border: none;
+  border-top: 2px solid #E5E7EB;
+  margin: 1rem 0;
+}
+
+/* Dot Pattern */
+.dots-pattern {
+  background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 200%;
+  }
+}
+
+.animate-shine {
+  animation: shine 0.75s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Hero entrance + slow image zoom (pure CSS, runs on mount) */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes kenburns {
+  from {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1.12);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .animate-rise {
+    animation: rise 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .animate-kenburns {
+    animation: kenburns 22s ease-out both;
+  }
+}
+
+/* Pure-CSS scroll reveal (progressive enhancement; no JS, no client wrapper) */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    [data-reveal] {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 45%;
+    }
+  }
+}
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Small mobile fix */
+@media (max-height: 700px) {
+  section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}

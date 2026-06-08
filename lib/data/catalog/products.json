@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "hotel-management-software-cloud",
+    "slug": "hotel-management-software-cloud",
+    "categorySlug": "hotel-management",
+    "name": "Hotel Management Software (Cloud PMS)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Run your hotel from anywhere, anytime",
+    "shortDescription": "A cloud-based hotel property management system that runs your front desk, reservations, billing, housekeeping and revenue from any device. Manage a single property or a full chain, cut manual work, and keep every department in sync in real time.",
+    "description": "Our cloud Hotel PMS brings every part of property management under one login — reservations, front office, billing, housekeeping, rate and revenue management, and guest engagement. Because it is cloud-based, there is no hardware to maintain and your team can work securely from any internet-connected device.\n\nFrom speedy check-in and automatic night audit to multi-currency folios, group bookings and chain consolidation, the system is built to boost efficiency, profit and guest satisfaction for properties of every size.",
+    "heroImage": "/images/products/hotel-management-software-cloud/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Manage front desk, reservations and billing from any device",
+      "Real-time revenue metrics — occupancy, ADR and RevPAR",
+      "Single login for hotel chains and groups"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Front Office",
+        "description": "Speedy check-in/check-out, automatic night audit, automatic room allocation, colour-coded room status and guest ID capture."
+      },
+      {
+        "title": "Reservations",
+        "description": "Handle walk-in, online, OTA, travel-agent and corporate bookings with instant confirmation and group booking support."
+      },
+      {
+        "title": "Billing & Payments",
+        "description": "Split and merge folios, transfer charges between rooms, and generate invoices in the guest's preferred currency and language."
+      },
+      {
+        "title": "Rate & Revenue Management",
+        "description": "Season-based rate plans, source-wise contracts, and live tracking of occupancy, ADR and RevPAR from one screen."
+      },
+      {
+        "title": "Housekeeping",
+        "description": "Assign and update tasks from a mobile app, block or unblock rooms, and keep the front desk in sync."
+      },
+      {
+        "title": "Hotel Chains",
+        "description": "Consolidate group data through a central reservation system with shared guest profiles and role-based access."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud (web + mobile app)"
+      },
+      {
+        "label": "Property types",
+        "value": "Hotels, resorts, hostels, serviced apartments, chains"
+      },
+      {
+        "label": "Access",
+        "value": "Any internet-connected device"
+      },
+      {
+        "label": "Multi-property",
+        "value": "Yes — central reservation system"
+      },
+      {
+        "label": "Languages & currencies",
+        "value": "Multi-language and multi-currency folios"
+      },
+      {
+        "label": "Security",
+        "value": "Role-based access, transaction locking, audit logs"
+      }
+    ],
+    "integrations": [
+      "Channel Manager",
+      "Online Booking Engine",
+      "Restaurant POS",
+      "Payment Gateways",
+      "Financial Accounting",
+      "Door-Lock & Key-Card Systems"
+    ],
+    "audience": [
+      "Independent hotels and boutique properties",
+      "Resorts and serviced apartments",
+      "Hotel groups and chains"
+    ],
+    "faqs": [
+      {
+        "q": "Can I manage more than one property?",
+        "a": "Yes. The cloud PMS supports hotel chains and groups through a central reservation system with shared guest profiles and role-based access for each location."
+      },
+      {
+        "q": "Does it work without installing software?",
+        "a": "Yes. It is fully cloud-based — you only need an internet connection and a browser or the mobile app. There is no server or hardware to maintain."
+      },
+      {
+        "q": "Can it connect to OTAs and our website?",
+        "a": "Yes. It integrates with a channel manager for OTA distribution and an online booking engine for commission-free direct bookings from your website."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-channel-manager",
+      "hotel-booking-engine",
+      "hotel-revenue-management"
+    ],
+    "isFeatured": true,
+    "displayOrder": 1,
+    "updatedAt": "2026-06-03",
+    "design": "split-benefit",
+    "theme": {
+      "acc": "#c2a36a",
+      "ink": "#16233c"
+    }
+  },
+  {
+    "id": "hotel-management-software-desktop",
+    "slug": "hotel-management-software-desktop",
+    "categorySlug": "hotel-management",
+    "name": "Hotel Management Software (Desktop PMS)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Desktop",
+    "tagline": "A fast, reliable PMS that works offline",
+    "shortDescription": "An on-premise hotel property management system that runs fully offline — from reservation to check-out, billing, housekeeping and night audit. Ideal for properties that want their data on-site and uninterrupted operation regardless of internet.",
+    "description": "Our desktop Hotel PMS is a powerful on-premise property management system that keeps running even when the internet does not. It covers the complete guest journey — reservations, check-in, billing, housekeeping, maintenance and night audit — in one fast, foolproof interface.\n\nWith an integrated booking engine and two-way channel manager, multi-currency support and a mobile reporting companion, it suits hotels, resorts, hostels and multi-property operators that prefer their data on-site.",
+    "heroImage": "/images/products/hotel-management-software-desktop/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Works fully offline — uninterrupted operation",
+      "Data stays on your own premises",
+      "Built-in booking engine and channel manager"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Multi-view Reservation Centre",
+        "description": "Room view, tape chart, list and summary views with real-time availability at a glance."
+      },
+      {
+        "title": "Check-in to Check-out",
+        "description": "Key-card support, blacklist alerts, split billing, late fees, folio transfer and gate pass."
+      },
+      {
+        "title": "Housekeeping & Maintenance",
+        "description": "Drag-and-drop task assignment plus equipment and spares tracking."
+      },
+      {
+        "title": "Night Audit",
+        "description": "Automated end-of-day audit with the reports your managers need."
+      },
+      {
+        "title": "Distribution",
+        "description": "Integrated booking engine and two-way channel manager covering OTAs and global distribution systems."
+      },
+      {
+        "title": "Mobile Reporting",
+        "description": "Check live performance from a companion mobile reporting app."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "On-premise desktop (offline-capable)"
+      },
+      {
+        "label": "Property types",
+        "value": "Hotels, resorts, motels, hostels, multi-property"
+      },
+      {
+        "label": "Data",
+        "value": "Stored on your own premises"
+      },
+      {
+        "label": "Taxes",
+        "value": "Configurable, up to multiple tax slabs"
+      },
+      {
+        "label": "Add-ons",
+        "value": "Self check-in kiosk, e-signature registration"
+      },
+      {
+        "label": "Integrations",
+        "value": "Booking engine, channel manager, restaurant POS"
+      }
+    ],
+    "integrations": [
+      "Online Booking Engine",
+      "Channel Manager (OTA & GDS)",
+      "Restaurant POS",
+      "Payment & Key-Card Systems"
+    ],
+    "audience": [
+      "Hotels that need offline reliability",
+      "Properties that prefer on-site data",
+      "Resorts, hostels and multi-property operators"
+    ],
+    "faqs": [
+      {
+        "q": "Does it keep working if the internet goes down?",
+        "a": "Yes. It is an on-premise desktop system designed to operate fully offline, so your front desk never stops."
+      },
+      {
+        "q": "Where is our data stored?",
+        "a": "On your own premises, giving you direct control over your property data."
+      },
+      {
+        "q": "Can it still connect to OTAs?",
+        "a": "Yes. It includes a two-way channel manager and booking engine to manage OTA and direct bookings."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-management-software-cloud",
+      "hotel-channel-manager",
+      "hotel-booking-engine"
+    ],
+    "isFeatured": false,
+    "displayOrder": 2,
+    "updatedAt": "2026-06-03",
+    "design": "feature-grid",
+    "theme": {
+      "acc": "#4cc4c1",
+      "ink": "#1c2b33"
+    }
+  },
+  {
+    "id": "hotel-channel-manager",
+    "slug": "hotel-channel-manager",
+    "categorySlug": "hotel-management",
+    "name": "Hotel Channel Manager",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Distribute every room across every channel, in real time",
+    "shortDescription": "A cloud hotel channel manager that updates rates and inventory across 130+ OTAs, GDS and vacation-rental portals in real time. Maintain rate parity, minimise overbookings and maximise revenue with built-in yield management — all from one dashboard.",
+    "description": "Our hotel channel manager gives you centralised, real-time control over your online distribution. Update rates and availability across 130+ global and regional channels from a single dashboard, and let the system push every change instantly so you never sell a room twice.\n\nWith rate parity, master and derived rate plans, yield-based pricing and competitor rate analysis, it helps you reach new markets and lift occupancy, ADR and RevPAR.",
+    "heroImage": "/images/products/hotel-channel-manager/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Connect to 130+ OTAs, GDS and rental portals",
+      "Real-time rate parity and minimal overbooking",
+      "Built-in yield management"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Real-time Distribution",
+        "description": "Single-click rate and inventory updates pushed instantly to every connected channel."
+      },
+      {
+        "title": "Rate Parity",
+        "description": "Maintain identical rates across all channels to protect your brand and rankings."
+      },
+      {
+        "title": "Yield Management",
+        "description": "Automatically derive the best available rate from occupancy to lift ADR and RevPAR."
+      },
+      {
+        "title": "Master & Derived Rates",
+        "description": "Change a master rate plan and have every derived plan update automatically."
+      },
+      {
+        "title": "Competitor Rate Analysis",
+        "description": "Monitor competitor pricing across channels to price with confidence."
+      },
+      {
+        "title": "Mobile & PMS Sync",
+        "description": "Two-way PMS connection plus a mobile app to manage rates on the go."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud"
+      },
+      {
+        "label": "Connected channels",
+        "value": "130+ OTAs, GDS and vacation-rental portals"
+      },
+      {
+        "label": "Rate plans",
+        "value": "Master and derived, multi-currency"
+      },
+      {
+        "label": "PMS link",
+        "value": "Two-way real-time sync"
+      },
+      {
+        "label": "Chains",
+        "value": "Central reservation system support"
+      },
+      {
+        "label": "Add-ons",
+        "value": "Competitor rate shopper"
+      }
+    ],
+    "integrations": [
+      "Hotel PMS",
+      "Online Travel Agencies (OTA)",
+      "Global Distribution Systems (GDS)",
+      "Online Booking Engine"
+    ],
+    "audience": [
+      "Hotels distributing across many OTAs",
+      "Resorts and guest houses",
+      "Hotel chains needing central control"
+    ],
+    "faqs": [
+      {
+        "q": "How many channels can I connect?",
+        "a": "The channel manager connects to 130+ global and regional OTAs, GDS and vacation-rental portals, with new channels added regularly."
+      },
+      {
+        "q": "Will it stop overbookings?",
+        "a": "Yes. Inventory updates in real time across every channel, which minimises the risk of selling the same room twice."
+      },
+      {
+        "q": "Does it keep rates consistent?",
+        "a": "Yes. Rate parity keeps your room rates identical across all connected channels."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-management-software-cloud",
+      "hotel-booking-engine",
+      "hotel-revenue-management"
+    ],
+    "isFeatured": false,
+    "displayOrder": 3,
+    "updatedAt": "2026-06-03",
+    "design": "distribution-network",
+    "theme": {
+      "acc": "#3b82a6",
+      "ink": "#152836"
+    }
+  },
+  {
+    "id": "hotel-booking-engine",
+    "slug": "hotel-booking-engine",
+    "categorySlug": "hotel-management",
+    "name": "Hotel Booking Engine",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Endless commission-free direct bookings",
+    "shortDescription": "A responsive hotel booking engine that drives commission-free direct bookings straight from your website and social pages. A fast two-step flow, plug-and-play widgets, multi-currency support and many payment gateways help you convert lookers into bookers, 24/7.",
+    "description": "Our booking engine turns your own website into your best-performing, commission-free sales channel. A responsive two-step booking flow, plug-and-play widgets and an interactive chatbot make it effortless for guests to book directly with you.\n\nWith packages and deals, review management, multi-currency and multi-language support and dozens of payment gateways, it increases direct revenue while improving the guest experience — for single hotels and chains alike.",
+    "heroImage": "/images/products/hotel-booking-engine/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Commission-free direct bookings",
+      "Responsive two-step booking flow",
+      "Many payment gateways supported"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Responsive Booking",
+        "description": "A mobile-optimised, two-step flow with plug-and-play widgets and an interactive chatbot to boost conversion."
+      },
+      {
+        "title": "Group & Chain Bookings",
+        "description": "Run direct bookings for all chain locations through a single login with consolidated reporting."
+      },
+      {
+        "title": "Packages & Deals",
+        "description": "Create promotions, corporate rates and last-minute or advance-purchase deals."
+      },
+      {
+        "title": "Review Management",
+        "description": "Collect and showcase guest reviews and monitor your reputation."
+      },
+      {
+        "title": "Multi-currency & Language",
+        "description": "Show rates and accept payments in the guest's own currency and language."
+      },
+      {
+        "title": "Guest Engagement",
+        "description": "Automated pre-arrival, in-house and post-departure emails."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud"
+      },
+      {
+        "label": "Booking flow",
+        "value": "Responsive two-step, widgets, chatbot"
+      },
+      {
+        "label": "Payments",
+        "value": "Wide range of payment gateways"
+      },
+      {
+        "label": "Security",
+        "value": "PCI-DSS secure, high uptime"
+      },
+      {
+        "label": "Chains",
+        "value": "Single-login group booking engine"
+      },
+      {
+        "label": "Channels",
+        "value": "Website, social and metasearch"
+      }
+    ],
+    "integrations": [
+      "Hotel PMS",
+      "Channel Manager",
+      "Payment Gateways",
+      "Website & Social Pages"
+    ],
+    "audience": [
+      "Hotels wanting more direct bookings",
+      "Resorts and guest houses",
+      "Hotel chains and groups"
+    ],
+    "faqs": [
+      {
+        "q": "Do you charge commission per booking?",
+        "a": "No. Bookings made through your own website with the booking engine are commission-free."
+      },
+      {
+        "q": "Can guests pay online?",
+        "a": "Yes. The booking engine supports a wide range of payment gateways with PCI-DSS secure processing."
+      },
+      {
+        "q": "Does it work for hotel chains?",
+        "a": "Yes. A single login can run direct bookings for every property in a chain with consolidated reporting."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-management-software-cloud",
+      "hotel-channel-manager",
+      "hotel-restaurant-website-builder"
+    ],
+    "isFeatured": false,
+    "displayOrder": 4,
+    "updatedAt": "2026-06-03",
+    "design": "conversion-flow",
+    "theme": {
+      "acc": "#6d76c9",
+      "ink": "#1e2138"
+    }
+  },
+  {
+    "id": "hotel-revenue-management",
+    "slug": "hotel-revenue-management",
+    "categorySlug": "hotel-management",
+    "name": "Hotel Revenue Management",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Dynamic pricing that maximises revenue, 365 days a year",
+    "shortDescription": "A revenue management and dynamic pricing system that sets the right room rate every day using an intelligent pricing engine, demand analysis, real-time inventory sync and competitor rates. It lifts occupancy and RevPAR while saving hours of manual rate work.",
+    "description": "Our revenue management system applies demand-based dynamic pricing across all your inventory, every day of the year. An intelligent pricing engine analyses historical and live data, occupancy, seasonality, lead time and competitor rates to recommend the optimal price.\n\nAvailable as self-service software or a fully managed service, it helps properties grow revenue and RevPAR while freeing your team from manual rate updates.",
+    "heroImage": "/images/products/hotel-revenue-management/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Dynamic pricing applied 365 days a year",
+      "Intelligent, data-driven pricing engine",
+      "Competitor rate (compset) analysis"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Intelligent Pricing Engine",
+        "description": "Recommends optimal rates from demand, occupancy, seasonality and lead time."
+      },
+      {
+        "title": "Business Analysis",
+        "description": "Combines historical and present performance to guide pricing decisions."
+      },
+      {
+        "title": "Real-time Inventory Sync",
+        "description": "Keeps pricing aligned with live availability across your systems."
+      },
+      {
+        "title": "Competitor Rate Analysis",
+        "description": "Tracks compset rates so you price competitively."
+      },
+      {
+        "title": "Multilevel Property Assessment",
+        "description": "Assesses performance across room types and segments."
+      },
+      {
+        "title": "Insightful Reports",
+        "description": "Admin dashboard, rules analysis and pick-up reports at a glance."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud"
+      },
+      {
+        "label": "Pricing",
+        "value": "Demand-based dynamic pricing, 365 days"
+      },
+      {
+        "label": "Delivery",
+        "value": "Self-service software or managed service"
+      },
+      {
+        "label": "Inputs",
+        "value": "Occupancy, seasonality, lead time, competitor rates"
+      },
+      {
+        "label": "Reports",
+        "value": "Dashboard, rules analysis, pick-up report"
+      },
+      {
+        "label": "Sync",
+        "value": "Real-time inventory synchronisation"
+      }
+    ],
+    "integrations": [
+      "Hotel PMS",
+      "Channel Manager",
+      "Online Booking Engine"
+    ],
+    "audience": [
+      "Hotels and resorts without in-house revenue teams",
+      "Boutique and independent properties",
+      "Groups wanting consistent pricing strategy"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a revenue manager to use it?",
+        "a": "No. You can run it as self-service software or choose a fully managed service where pricing is handled for you."
+      },
+      {
+        "q": "What does it base prices on?",
+        "a": "It uses occupancy, seasonality, lead time, demand and competitor rates, combined with your historical performance."
+      },
+      {
+        "q": "Will it work with my existing systems?",
+        "a": "Yes. It synchronises inventory in real time and works alongside your PMS, channel manager and booking engine."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-management-software-cloud",
+      "hotel-channel-manager",
+      "hotel-booking-engine"
+    ],
+    "isFeatured": false,
+    "displayOrder": 5,
+    "updatedAt": "2026-06-03",
+    "design": "comparison",
+    "theme": {
+      "acc": "#48b78a",
+      "ink": "#0f1f1b"
+    }
+  },
+  {
+    "id": "hotel-restaurant-website-builder",
+    "slug": "hotel-restaurant-website-builder",
+    "categorySlug": "hotel-management",
+    "name": "Hotel & Restaurant Website Builder",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "A booking-ready website for your property",
+    "shortDescription": "A website builder made for hotels and restaurants — elegant templates, free hosting and SSL, multi-language and SEO support, drag-and-drop editing and a dedicated designer. Integrates with the booking engine so your site turns visitors into direct bookings.",
+    "description": "Our website builder helps hotels and restaurants present their brand beautifully and convert visitors into direct bookings. Choose from ready-made templates and themes, edit with drag-and-drop, and launch with free hosting and SSL — supported by a dedicated website designer.\n\nWith multi-language, SEO-friendly pages, conversion widgets and built-in booking-engine integration, your website becomes a true sales channel.",
+    "heroImage": "/images/products/hotel-restaurant-website-builder/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Designed for hotels and restaurants",
+      "Free hosting and SSL included",
+      "Integrated booking engine for direct bookings"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Templates & Themes",
+        "description": "A range of ready-made, customisable templates and theme options."
+      },
+      {
+        "title": "Drag-and-Drop Editing",
+        "description": "Make changes yourself with no coding or HTML knowledge."
+      },
+      {
+        "title": "Free Hosting & SSL",
+        "description": "Hosting and an SSL certificate are included."
+      },
+      {
+        "title": "Multi-language & SEO",
+        "description": "Reach a wider audience with translation support and SEO-ready pages."
+      },
+      {
+        "title": "Conversion Widgets",
+        "description": "Looker-to-booker widgets and booking-engine integration drive direct bookings."
+      },
+      {
+        "title": "Dedicated Designer",
+        "description": "A dedicated website designer helps bring your brand to life."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud"
+      },
+      {
+        "label": "Hosting",
+        "value": "Free hosting and SSL included"
+      },
+      {
+        "label": "Editing",
+        "value": "Drag-and-drop, DIY with version backups"
+      },
+      {
+        "label": "Languages",
+        "value": "Multi-language support"
+      },
+      {
+        "label": "SEO",
+        "value": "SEO-friendly pages"
+      },
+      {
+        "label": "Best for",
+        "value": "Hotels, restaurants and F&B businesses"
+      }
+    ],
+    "integrations": [
+      "Online Booking Engine",
+      "Payment Gateways",
+      "Maps & Translation"
+    ],
+    "audience": [
+      "Independent hotels and resorts",
+      "Restaurants and F&B businesses",
+      "Properties wanting a branded site"
+    ],
+    "faqs": [
+      {
+        "q": "Can I edit the website myself?",
+        "a": "Yes. Drag-and-drop editing lets you make changes without any coding, and older versions are backed up automatically."
+      },
+      {
+        "q": "Is hosting included?",
+        "a": "Yes. Free hosting and an SSL certificate are included."
+      },
+      {
+        "q": "Will it take direct bookings?",
+        "a": "Yes. It integrates with the booking engine so your website converts visitors into commission-free direct bookings."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hotel-booking-engine",
+      "hotel-management-software-cloud"
+    ],
+    "isFeatured": false,
+    "displayOrder": 6,
+    "updatedAt": "2026-06-03",
+    "design": "gallery-showcase",
+    "theme": {
+      "acc": "#a47bbf",
+      "ink": "#241f2e"
+    }
+  },
+  {
+    "id": "restaurant-management-cloud",
+    "slug": "restaurant-management-cloud",
+    "categorySlug": "restaurant-management",
+    "name": "Restaurant Management & POS (Cloud)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Run your restaurant from anywhere",
+    "shortDescription": "A cloud restaurant POS that needs only a browser and internet to run your F&B business. Handle dine-in, takeaway, delivery and room-service orders, plus tables, menus, billing, inventory and multi-outlet control — with a tablet ordering app that works offline.",
+    "description": "Our cloud restaurant POS lets you run and monitor your F&B business from anywhere, with instant updates and zero downtime. Manage orders across dine-in, takeaway, delivery and room service, and control tables, menus, billing, inventory and shifts from one system.\n\nA tablet-based ordering app works with or without internet, online-ordering platforms sync automatically, and multi-outlet tools keep chains consolidated.",
+    "heroImage": "/images/products/restaurant-management-cloud/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Manage your restaurant from any device",
+      "Tablet ordering app works online and offline",
+      "Online-ordering and delivery management"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Order Management",
+        "description": "Dine-in, takeaway, delivery and room-service orders captured in full detail."
+      },
+      {
+        "title": "Table & Menu Management",
+        "description": "Assign servers, transfer orders and run season or happy-hour menus."
+      },
+      {
+        "title": "Online Ordering & Delivery",
+        "description": "Sync online-ordering platforms and assign and track delivery drivers."
+      },
+      {
+        "title": "Inventory & Stock",
+        "description": "Real-time stock control with recipes and threshold alerts to cut wastage."
+      },
+      {
+        "title": "Billing & Payments",
+        "description": "Split bills, manage discounts and offers, and accept multiple payment modes."
+      },
+      {
+        "title": "Multi-outlet & Reports",
+        "description": "Manage many outlets from one place with consolidated, customisable reports."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud (browser-based) + offline tablet app"
+      },
+      {
+        "label": "Order types",
+        "value": "Dine-in, takeaway, delivery, room service"
+      },
+      {
+        "label": "Languages",
+        "value": "Multi-language UI, receipts and KOTs"
+      },
+      {
+        "label": "Multi-outlet",
+        "value": "Yes — chain management"
+      },
+      {
+        "label": "Security",
+        "value": "Audit logs, role-based access"
+      },
+      {
+        "label": "Day close",
+        "value": "Simple two-step day close"
+      }
+    ],
+    "integrations": [
+      "Hotel PMS",
+      "Online Ordering Platforms",
+      "Payment Gateways",
+      "Financial Accounting"
+    ],
+    "audience": [
+      "Restaurants, cafes and bakeries",
+      "QSR, bars and lounges",
+      "Hotel restaurants and multi-outlet chains"
+    ],
+    "faqs": [
+      {
+        "q": "Does the ordering app work without internet?",
+        "a": "Yes. The tablet-based ordering app works with or without an internet connection and syncs when back online."
+      },
+      {
+        "q": "Can it connect to online-ordering apps?",
+        "a": "Yes. Online-ordering platforms sync into the POS so all orders are managed in one place."
+      },
+      {
+        "q": "Can I manage several outlets?",
+        "a": "Yes. You can create and manage multiple outlets from one place with consolidated chain reporting."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "restaurant-management-desktop",
+      "hotel-management-software-cloud",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": true,
+    "displayOrder": 7,
+    "updatedAt": "2026-06-03",
+    "design": "menu-board",
+    "theme": {
+      "acc": "#cc6b4f",
+      "ink": "#2a1d18"
+    }
+  },
+  {
+    "id": "restaurant-management-desktop",
+    "slug": "restaurant-management-desktop",
+    "categorySlug": "restaurant-management",
+    "name": "Restaurant Management & POS (Desktop)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Desktop",
+    "tagline": "A robust restaurant POS that never stops",
+    "shortDescription": "An on-premise restaurant POS and management system that runs offline for uninterrupted service. Handle orders, tables, menus, shifts, billing and inventory with real-time stock control and a mobile reporting app — ideal for busy single venues and chains.",
+    "description": "Our desktop restaurant POS is built for uninterrupted service. It runs on-premise and offline, so your floor keeps moving regardless of the internet, and covers orders, tables, menus, shifts, billing and inventory in one reliable system.\n\nReal-time stock control, third-party interfaces and a mobile reporting app help you stay productive across fine dining, fast food, cafes, clubs and bars.",
+    "heroImage": "/images/products/restaurant-management-desktop/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Runs offline for uninterrupted service",
+      "Real-time inventory and stock control",
+      "Mobile reporting on the go"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Restaurant POS",
+        "description": "Fast order, table and shift handling built for busy service."
+      },
+      {
+        "title": "Inventory & Stock",
+        "description": "Intelligent, real-time stock tracking to reduce wastage and theft."
+      },
+      {
+        "title": "Billing & Payments",
+        "description": "Flexible billing with multiple payment modes and split bills."
+      },
+      {
+        "title": "Offline Operation",
+        "description": "Keeps running without internet, syncing when reconnected."
+      },
+      {
+        "title": "Mobile Reports",
+        "description": "Track performance from a companion mobile app."
+      },
+      {
+        "title": "Third-party Interfaces",
+        "description": "Connect to a range of supporting tools and devices."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "On-premise desktop (offline-capable)"
+      },
+      {
+        "label": "Best for",
+        "value": "Fine dining, QSR, cafes, bars, clubs"
+      },
+      {
+        "label": "Reporting",
+        "value": "Mobile reporting app"
+      },
+      {
+        "label": "Editions",
+        "value": "Full and lite editions"
+      },
+      {
+        "label": "Inventory",
+        "value": "Real-time stock and recipes"
+      },
+      {
+        "label": "Integrations",
+        "value": "Hotel PMS and third-party interfaces"
+      }
+    ],
+    "integrations": [
+      "Hotel PMS",
+      "Payment Gateways",
+      "Third-party Interfaces"
+    ],
+    "audience": [
+      "Fine dining and fast food",
+      "Cafes, bars, lounges and clubs",
+      "Venues needing offline reliability"
+    ],
+    "faqs": [
+      {
+        "q": "Does it work offline?",
+        "a": "Yes. It is an on-premise desktop POS that runs without internet and syncs when reconnected."
+      },
+      {
+        "q": "Can I see reports away from the venue?",
+        "a": "Yes. A companion mobile app lets you track performance on the go."
+      },
+      {
+        "q": "Is it suitable for a chain?",
+        "a": "Yes. It supports multi-venue operations and connects with hotel and third-party systems."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "restaurant-management-cloud",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": false,
+    "displayOrder": 8,
+    "updatedAt": "2026-06-03",
+    "design": "offline-reliability",
+    "theme": {
+      "acc": "#b07d4a",
+      "ink": "#241c14"
+    }
+  },
+  {
+    "id": "retail-management-cloud",
+    "slug": "retail-management-cloud",
+    "categorySlug": "retail-management",
+    "name": "Retail Management & POS (Cloud)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Web-based POS and ERP for retail chains",
+    "shortDescription": "A cloud retail POS and ERP for multi-location stores — billing, inventory, accounting and CRM accessible from any browser. Centralise control across every outlet and serve supermarkets, pharmacies, fashion, electronics and more.",
+    "description": "Our cloud retail platform is a web-based POS and ERP built for retail chains. Manage billing, inventory, accounting and customer relationships across every outlet from one browser-based system — no local server required.\n\nIt suits a wide range of stores, from supermarkets and pharmacies to fashion, electronics and departmental outlets, and acts as the central hub for any on-premise terminals.",
+    "heroImage": "/images/products/retail-management-cloud/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Web-based — manage from any browser",
+      "Centralised control for multi-store chains",
+      "Covers a wide range of retail verticals"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Cloud POS Billing",
+        "description": "Fast, reliable billing for every type of retail store."
+      },
+      {
+        "title": "Centralised Chain Control",
+        "description": "Manage all stores and stock from one central system."
+      },
+      {
+        "title": "Inventory Management",
+        "description": "Track stock, suppliers and reorders across locations."
+      },
+      {
+        "title": "Financial Accounting",
+        "description": "Built-in accounting keeps finances aligned with sales."
+      },
+      {
+        "title": "Customer CRM",
+        "description": "Loyalty and customer management to drive repeat business."
+      },
+      {
+        "title": "Promotions Engine",
+        "description": "Run offers and promotions across your stores."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud / web-based"
+      },
+      {
+        "label": "Best for",
+        "value": "Multi-location retail chains"
+      },
+      {
+        "label": "Verticals",
+        "value": "Supermarket, pharmacy, fashion, electronics and more"
+      },
+      {
+        "label": "Access",
+        "value": "Any browser, no local server"
+      },
+      {
+        "label": "Sync",
+        "value": "Central hub for on-premise terminals"
+      },
+      {
+        "label": "Add-ons",
+        "value": "Promotions engine, biometric attendance"
+      }
+    ],
+    "integrations": [
+      "On-Premise POS Terminals",
+      "Payment Gateways",
+      "Financial Accounting",
+      "Biometric Attendance"
+    ],
+    "audience": [
+      "Supermarkets and hypermarkets",
+      "Pharmacies and healthcare retail",
+      "Fashion, electronics and departmental stores"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a server in each store?",
+        "a": "No. It is web-based, so stores connect through a browser with no local server required."
+      },
+      {
+        "q": "Can it manage many branches?",
+        "a": "Yes. It centralises control across all outlets and can act as the sync hub for on-premise terminals."
+      },
+      {
+        "q": "Which store types does it support?",
+        "a": "A wide range — supermarkets, pharmacies, fashion, electronics, departmental stores and more."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "retail-management-desktop",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": true,
+    "displayOrder": 9,
+    "updatedAt": "2026-06-03",
+    "design": "industry-grid",
+    "theme": {
+      "acc": "#b15a7a",
+      "ink": "#2a1d24"
+    }
+  },
+  {
+    "id": "retail-management-desktop",
+    "slug": "retail-management-desktop",
+    "categorySlug": "retail-management",
+    "name": "Retail Management & POS (Desktop)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Desktop",
+    "tagline": "Unified POS for stores and distributors",
+    "shortDescription": "An installed retail POS and management system for independent retailers and distributors — billing, accounting, payments and CRM on laptops, tablets and handhelds. Runs in real-time or offline and syncs with the cloud for multi-branch operations.",
+    "description": "Our desktop retail POS is a unified billing and management system for independent retailers and distributors. It runs on laptops, tablets and handheld devices, in real-time or fully offline, so sales never stop.\n\nWith built-in financial accounting, payment processing and CRM, and a sync mode that connects branches to the cloud, it scales from a single store to a distributed chain across many retail verticals.",
+    "heroImage": "/images/products/retail-management-desktop/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Real-time or offline terminal modes",
+      "Runs on laptops, tablets and handhelds",
+      "Syncs branches to the cloud"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Unified POS Billing",
+        "description": "One system for retail and distribution billing."
+      },
+      {
+        "title": "Offline Terminal Mode",
+        "description": "Keep selling offline with a local database and scheduled sync."
+      },
+      {
+        "title": "Financial Accounting",
+        "description": "Built-in accounting tied directly to sales."
+      },
+      {
+        "title": "Payment Gateway",
+        "description": "Integrated payment processing at the counter."
+      },
+      {
+        "title": "Customer CRM",
+        "description": "Manage customers and loyalty from the POS."
+      },
+      {
+        "title": "Multi-branch Sync",
+        "description": "Connect branches to a central cloud database."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "On-premise desktop (real-time or offline)"
+      },
+      {
+        "label": "Devices",
+        "value": "Laptops, tablets, handheld terminals"
+      },
+      {
+        "label": "Best for",
+        "value": "Independent retailers and distributors"
+      },
+      {
+        "label": "Sync",
+        "value": "Cloud sync for multi-branch"
+      },
+      {
+        "label": "Accounting",
+        "value": "Built-in financial accounting"
+      },
+      {
+        "label": "Verticals",
+        "value": "Supermarket, pharmacy, fashion, electronics and more"
+      }
+    ],
+    "integrations": [
+      "Cloud Retail Platform",
+      "Payment Gateways",
+      "Customer CRM"
+    ],
+    "audience": [
+      "Independent retail outlets",
+      "Distributors and wholesalers",
+      "Stores needing offline reliability"
+    ],
+    "faqs": [
+      {
+        "q": "Can it run without internet?",
+        "a": "Yes. An offline terminal mode keeps billing running with a local database that syncs on a schedule."
+      },
+      {
+        "q": "Does it work across branches?",
+        "a": "Yes. A sync mode connects branches to a central cloud database for unified control."
+      },
+      {
+        "q": "What devices does it run on?",
+        "a": "Laptops, tablets and handheld terminals, so you can bill anywhere in the store."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "retail-management-cloud",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": false,
+    "displayOrder": 10,
+    "updatedAt": "2026-06-03",
+    "design": "deployment-triptych",
+    "theme": {
+      "acc": "#6e7687",
+      "ink": "#21262e"
+    }
+  },
+  {
+    "id": "salon-spa-management-software",
+    "slug": "salon-spa-management-software",
+    "categorySlug": "salon-spa",
+    "name": "Salon & Spa Management Software",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Streamline, automate and grow your salon",
+    "shortDescription": "An all-in-one cloud platform for salons, spas and wellness centres — 24/7 online booking, client CRM, staff and inventory management, billing and automated marketing. Reduce no-shows, retain clients and run one location or many from anywhere.",
+    "description": "Our salon and spa software brings booking, billing, clients, staff, inventory and marketing into one cloud platform. Clients book online around the clock with automatic reminders, while you manage schedules, stock and staff performance from any device.\n\nBuilt-in CRM, loyalty, gift cards and automated WhatsApp, SMS and email campaigns help you fill the calendar and keep clients coming back — for independent salons and multi-location chains alike.",
+    "heroImage": "/images/products/salon-spa-management-software/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "24/7 online booking with automatic reminders",
+      "Client CRM with history and preferences",
+      "Automated WhatsApp, SMS and email marketing"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Online Booking",
+        "description": "Real-time 24/7 booking with smart scheduling that prevents double-bookings."
+      },
+      {
+        "title": "Client CRM",
+        "description": "Detailed client profiles, history and preferences for personalised service."
+      },
+      {
+        "title": "Billing & Payments",
+        "description": "Quick, professional billing with integrated digital payments."
+      },
+      {
+        "title": "Staff Management",
+        "description": "Shifts, attendance and individual staff performance tracking."
+      },
+      {
+        "title": "Inventory Control",
+        "description": "Monitor product usage and stock levels with automated reorders."
+      },
+      {
+        "title": "Marketing Automation",
+        "description": "Personalised WhatsApp, SMS and email campaigns to boost retention."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud (web + mobile apps)"
+      },
+      {
+        "label": "Best for",
+        "value": "Salons, spas, barbershops, wellness, clinics"
+      },
+      {
+        "label": "Booking",
+        "value": "24/7 online with reminders"
+      },
+      {
+        "label": "Multi-location",
+        "value": "Yes"
+      },
+      {
+        "label": "Marketing",
+        "value": "WhatsApp, SMS, email automation"
+      },
+      {
+        "label": "Security",
+        "value": "Enterprise-grade cloud security"
+      }
+    ],
+    "integrations": [
+      "WhatsApp & SMS",
+      "Payment Gateways",
+      "Website & Social Booking"
+    ],
+    "audience": [
+      "Salons, spas and barbershops",
+      "Beauty, skin and nail clinics",
+      "Wellness centres and chains"
+    ],
+    "faqs": [
+      {
+        "q": "Can clients book online themselves?",
+        "a": "Yes. Clients can book 24/7 online with automatic reminders that help reduce no-shows."
+      },
+      {
+        "q": "Does it handle more than one branch?",
+        "a": "Yes. It supports multi-location businesses from independent salons to high-end chains."
+      },
+      {
+        "q": "Can it send marketing messages?",
+        "a": "Yes. It automates personalised WhatsApp, SMS and email campaigns to boost client retention."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "time-attendance-software",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": true,
+    "displayOrder": 11,
+    "updatedAt": "2026-06-03",
+    "design": "business-cards",
+    "theme": {
+      "acc": "#bd8aa0",
+      "ink": "#2a2530"
+    }
+  },
+  {
+    "id": "cloud-financial-management",
+    "slug": "cloud-financial-management",
+    "categorySlug": "erp-accounting",
+    "name": "Cloud Financial Management (ERP)",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud",
+    "tagline": "Real-time finance built to scale",
+    "shortDescription": "A cloud financial management platform for growing businesses — real-time dashboards, automated compliance, multi-entity and multi-currency consolidation, and deep reporting. Built to take finance teams beyond entry-level accounting tools.",
+    "description": "Our cloud financial management platform gives finance leaders real-time visibility and control. Customisable dashboards and advanced reporting replace manual spreadsheets, while automation handles compliance and keeps you audit-ready.\n\nWith multi-entity, multi-currency consolidation and a wide ecosystem of integrations, it is built for businesses that have outgrown basic accounting software and need finance that scales.",
+    "heroImage": "/images/products/cloud-financial-management/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Real-time dashboards and advanced reporting",
+      "Multi-entity, multi-currency consolidation",
+      "Automated, audit-ready compliance"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Real-time Reporting",
+        "description": "Customisable dashboards and multidimensional reporting in real time."
+      },
+      {
+        "title": "Automated Compliance",
+        "description": "Automation keeps records accurate and audit-ready."
+      },
+      {
+        "title": "Multi-entity & Currency",
+        "description": "Consolidate entities and currencies with inter-company support."
+      },
+      {
+        "title": "AP, AR & Expense Automation",
+        "description": "Automate payables, receivables and expenses to cut close times."
+      },
+      {
+        "title": "Role-based Dashboards",
+        "description": "Each role sees the metrics that matter to them."
+      },
+      {
+        "title": "Wide Integrations",
+        "description": "Connects with the tools across your finance ecosystem."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud"
+      },
+      {
+        "label": "Best for",
+        "value": "Scaling and multi-entity businesses"
+      },
+      {
+        "label": "Consolidation",
+        "value": "Multi-entity and multi-currency"
+      },
+      {
+        "label": "Reporting",
+        "value": "Real-time, multidimensional"
+      },
+      {
+        "label": "Automation",
+        "value": "AP, AR, expense and compliance"
+      },
+      {
+        "label": "Access",
+        "value": "Anywhere, any device"
+      }
+    ],
+    "integrations": [
+      "Payroll & HR",
+      "CRM",
+      "Expense & Budgeting",
+      "Banking & Payments"
+    ],
+    "audience": [
+      "Finance leaders at growing companies",
+      "Multi-entity and multi-currency businesses",
+      "Teams outgrowing entry-level accounting"
+    ],
+    "faqs": [
+      {
+        "q": "Is it suitable for multiple companies?",
+        "a": "Yes. It consolidates multiple entities and currencies with inter-company transactions and reporting."
+      },
+      {
+        "q": "Will it speed up our month-end close?",
+        "a": "Yes. Automation of payables, receivables, expenses and compliance significantly reduces reporting and close times."
+      },
+      {
+        "q": "Can it connect to our other systems?",
+        "a": "Yes. It integrates with payroll, CRM, expense and banking tools across your finance ecosystem."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "business-erp-accounting",
+      "hr-payroll-software"
+    ],
+    "isFeatured": false,
+    "displayOrder": 12,
+    "updatedAt": "2026-06-03",
+    "design": "metrics-led",
+    "theme": {
+      "acc": "#3fae86",
+      "ink": "#11211c"
+    }
+  },
+  {
+    "id": "business-erp-accounting",
+    "slug": "business-erp-accounting",
+    "categorySlug": "erp-accounting",
+    "name": "Business ERP & Accounting",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud / On-Premise",
+    "tagline": "Finance, operations and inventory in one ERP",
+    "shortDescription": "A connected ERP for small and mid-sized businesses — finance, operations, inventory and order management across locations, currencies and languages. Get a single real-time view of the business without enterprise ERP cost or complexity.",
+    "description": "Our business ERP unifies finance, operations and inventory so departments stop working in silos. Manage the general ledger, payables and receivables, purchasing, order entry and project costing from one connected system with a real-time view across the business.\n\nWith multi-company consolidation, unlimited currencies and multi-language support — available on the cloud or on-premise — it gives growing businesses enterprise-grade capability at SMB scale.",
+    "heroImage": "/images/products/business-erp-accounting/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Single real-time view across the business",
+      "Multi-company, multi-currency, multi-language",
+      "Cloud or on-premise deployment"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Core Financials",
+        "description": "General ledger, accounts payable and receivable, and bank reconciliation."
+      },
+      {
+        "title": "Multi-company & Currency",
+        "description": "Inter-company transactions, consolidations and unlimited currencies."
+      },
+      {
+        "title": "Inventory Management",
+        "description": "Multi-location stock with forecasting and serialised or lot tracking."
+      },
+      {
+        "title": "Order & Purchasing",
+        "description": "Order entry, purchasing and credit-card processing built in."
+      },
+      {
+        "title": "Project & Job Costing",
+        "description": "Track costs and profitability by project or job."
+      },
+      {
+        "title": "Business Intelligence",
+        "description": "Dashboards, KPIs and Excel-based reporting."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud or on-premise"
+      },
+      {
+        "label": "Best for",
+        "value": "Small and mid-sized businesses"
+      },
+      {
+        "label": "Companies",
+        "value": "Multi-company consolidation"
+      },
+      {
+        "label": "Currencies",
+        "value": "Unlimited, with exchange schedules"
+      },
+      {
+        "label": "Languages",
+        "value": "Multi-language"
+      },
+      {
+        "label": "Modules",
+        "value": "GL, AP, AR, inventory, purchasing, projects, BI"
+      }
+    ],
+    "integrations": [
+      "CRM",
+      "Business Intelligence",
+      "Inventory & Forecasting",
+      "Payment Processing"
+    ],
+    "audience": [
+      "Small and mid-sized businesses",
+      "Multi-location and multi-currency operations",
+      "Teams needing finance, ops and inventory together"
+    ],
+    "faqs": [
+      {
+        "q": "Can it run on-premise?",
+        "a": "Yes. It is available both on the cloud and on-premise to suit your IT preferences."
+      },
+      {
+        "q": "Does it handle multiple companies?",
+        "a": "Yes. It supports multi-company consolidation with inter-company transactions and unlimited currencies."
+      },
+      {
+        "q": "Is it just accounting?",
+        "a": "No. It also covers inventory, purchasing, order entry, project costing and business intelligence."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "cloud-financial-management",
+      "hr-payroll-software"
+    ],
+    "isFeatured": false,
+    "displayOrder": 13,
+    "updatedAt": "2026-06-03",
+    "design": "module-bands",
+    "theme": {
+      "acc": "#4a82c0",
+      "ink": "#17222e"
+    }
+  },
+  {
+    "id": "hr-payroll-software",
+    "slug": "hr-payroll-software",
+    "categorySlug": "hr-payroll",
+    "name": "HR & Payroll Software",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud / On-Premise",
+    "tagline": "Manage your people from hire to retire",
+    "shortDescription": "Integrated HR and payroll covering the full employee lifecycle — recruitment, onboarding, payroll with WPS and bank transfers, leave, attendance, self-service and performance. Automate admin, stay compliant and empower employees with a mobile self-service app.",
+    "description": "Our HR and payroll software manages the entire employee lifecycle in one platform — from recruitment and onboarding to payroll, leave, attendance, performance and exit. Automated workflows cut admin, while WPS-ready payroll and bank-transfer support keep you compliant.\n\nEmployees and managers get a mobile self-service app for requests and approvals, and built-in analytics give HR clear, real-time insight. It scales from small teams to multi-company, multi-country organisations.",
+    "heroImage": "/images/products/hr-payroll-software/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Full hire-to-retire employee lifecycle",
+      "WPS-ready payroll and bank transfers",
+      "Mobile employee and manager self-service"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Core HR",
+        "description": "Centralised employee records, documents and organisation structure."
+      },
+      {
+        "title": "Payroll",
+        "description": "Accurate payroll with WPS files, bank-transfer letters and statutory reports."
+      },
+      {
+        "title": "Leave & Attendance",
+        "description": "Leave management plus biometric and web attendance with rosters and overtime."
+      },
+      {
+        "title": "Recruitment & Onboarding",
+        "description": "Manage hiring and onboard new joiners smoothly."
+      },
+      {
+        "title": "Performance Management",
+        "description": "Goals, reviews and 360-degree appraisals."
+      },
+      {
+        "title": "Self-Service App",
+        "description": "Mobile self-service for requests, approvals and payslips."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud or on-premise"
+      },
+      {
+        "label": "Best for",
+        "value": "Businesses of every size, single or multi-company"
+      },
+      {
+        "label": "Payroll",
+        "value": "WPS-ready, bank transfers, statutory reports"
+      },
+      {
+        "label": "Attendance",
+        "value": "Biometric and web, rosters, overtime"
+      },
+      {
+        "label": "Self-service",
+        "value": "Employee and manager mobile app"
+      },
+      {
+        "label": "Lifecycle",
+        "value": "Recruitment to exit"
+      }
+    ],
+    "integrations": [
+      "Time & Attendance Devices",
+      "Financial Accounting",
+      "Bank Transfer & WPS",
+      "Biometric Systems"
+    ],
+    "audience": [
+      "Growing SMBs",
+      "Large and multi-company enterprises",
+      "Organisations with distributed workforces"
+    ],
+    "faqs": [
+      {
+        "q": "Is the payroll WPS-ready?",
+        "a": "Yes. Payroll generates WPS files and bank-transfer letters along with statutory reports for compliant processing."
+      },
+      {
+        "q": "Can employees use it themselves?",
+        "a": "Yes. A mobile self-service app lets employees and managers handle requests, approvals and payslips."
+      },
+      {
+        "q": "Does it connect to attendance devices?",
+        "a": "Yes. It integrates with biometric and web attendance, feeding hours straight into payroll."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "time-attendance-software",
+      "cloud-financial-management"
+    ],
+    "isFeatured": true,
+    "displayOrder": 14,
+    "updatedAt": "2026-06-03",
+    "design": "lifecycle-timeline",
+    "theme": {
+      "acc": "#5f9e7a",
+      "ink": "#172620"
+    }
+  },
+  {
+    "id": "time-attendance-software",
+    "slug": "time-attendance-software",
+    "categorySlug": "time-attendance",
+    "name": "Time & Attendance Software",
+    "productType": "Software",
+    "template": "software",
+    "deploymentType": "Cloud / On-Premise",
+    "tagline": "Accurate attendance, straight to payroll",
+    "shortDescription": "Cloud and biometric time & attendance that captures shifts, rosters and overtime in real time and syncs directly to payroll. Manage multiple locations, enforce policies and add access control — eliminating manual timesheets and payroll errors.",
+    "description": "Our time & attendance system captures employee hours accurately and automatically. Biometric and web check-ins record attendance in real time, while rosters, shifts and overtime rules are applied for you and synced straight to payroll.\n\nWith multi-location support and access-control options, it removes manual timesheets, reduces payroll errors and gives managers a live view of who is in, late or absent.",
+    "heroImage": "/images/products/time-attendance-software/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Biometric and web attendance in real time",
+      "Automatic sync to payroll",
+      "Multi-location with access control"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Real-time Capture",
+        "description": "Biometric and web check-ins recorded instantly across locations."
+      },
+      {
+        "title": "Rosters & Shifts",
+        "description": "Define shifts, rosters and overtime rules and apply them automatically."
+      },
+      {
+        "title": "Payroll Sync",
+        "description": "Approved hours flow straight into payroll with no re-keying."
+      },
+      {
+        "title": "Policy Enforcement",
+        "description": "Apply late, absence and overtime policies consistently."
+      },
+      {
+        "title": "Access Control",
+        "description": "Combine attendance with door access where required."
+      },
+      {
+        "title": "Live Dashboards",
+        "description": "See who is in, late or absent at a glance."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Deployment",
+        "value": "Cloud or on-premise"
+      },
+      {
+        "label": "Capture",
+        "value": "Biometric and web check-in"
+      },
+      {
+        "label": "Multi-location",
+        "value": "Yes"
+      },
+      {
+        "label": "Payroll",
+        "value": "Direct sync to payroll"
+      },
+      {
+        "label": "Access control",
+        "value": "Optional door access integration"
+      },
+      {
+        "label": "Best for",
+        "value": "Any business tracking workforce hours"
+      }
+    ],
+    "integrations": [
+      "HR & Payroll Software",
+      "Biometric Devices",
+      "Access Control Systems"
+    ],
+    "audience": [
+      "Businesses with shift-based teams",
+      "Multi-location operations",
+      "Organisations needing access control"
+    ],
+    "faqs": [
+      {
+        "q": "Does it work across multiple sites?",
+        "a": "Yes. It captures attendance across multiple locations in real time from one system."
+      },
+      {
+        "q": "Will it feed payroll automatically?",
+        "a": "Yes. Approved hours sync directly to payroll, removing manual timesheets and errors."
+      },
+      {
+        "q": "Can it control door access too?",
+        "a": "Yes. It can combine attendance with access-control devices where required."
+      }
+    ],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "specifications",
+      "integrations",
+      "audience",
+      "faq",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "hr-payroll-software",
+      "biometric-devices"
+    ],
+    "isFeatured": false,
+    "displayOrder": 15,
+    "updatedAt": "2026-06-03",
+    "design": "steps-flow",
+    "theme": {
+      "acc": "#3aa3a8",
+      "ink": "#142528"
+    }
+  },
+  {
+    "id": "touch-pos-terminals",
+    "slug": "touch-pos-terminals",
+    "categorySlug": "pos-hardware",
+    "name": "Integrated Touch POS Terminals",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "All-in-one touch terminals for fast checkout",
+    "shortDescription": "Integrated and modular touch-screen POS terminals built for retail and hospitality — durable, responsive and ready to run your billing software at the counter, drive-through or table-side.",
+    "description": "Our range of integrated touch POS terminals combines screen, processor and peripherals in one reliable unit, with modular options when you need flexibility. Built for continuous use in busy retail and hospitality environments, they pair seamlessly with our POS software.",
+    "heroImage": "/images/products/touch-pos-terminals/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Integrated and modular options",
+      "Built for continuous heavy use",
+      "Pairs with our POS software"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Integrated Design",
+        "description": "Screen, processor and peripherals in one compact unit."
+      },
+      {
+        "title": "Durable Build",
+        "description": "Engineered for busy retail and hospitality counters."
+      },
+      {
+        "title": "Software-ready",
+        "description": "Works out of the box with our retail and restaurant POS."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Integrated touch & modular"
+      },
+      {
+        "label": "Best for",
+        "value": "Retail and hospitality"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Retail stores",
+      "Restaurants and cafes",
+      "Hospitality venues"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "pos-printers",
+      "pos-accessories"
+    ],
+    "isFeatured": false,
+    "displayOrder": 16,
+    "updatedAt": "2026-06-03",
+    "design": "spec-sheet",
+    "theme": {
+      "acc": "#62788f",
+      "ink": "#1c2127"
+    }
+  },
+  {
+    "id": "pos-printers",
+    "slug": "pos-printers",
+    "categorySlug": "pos-hardware",
+    "name": "POS Printers (Thermal & Dot-Matrix)",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Fast, reliable receipt and kitchen printing",
+    "shortDescription": "Thermal and dot-matrix POS printers for receipts, kitchen orders and invoices — fast, quiet and dependable, with options for every retail and hospitality counter.",
+    "description": "Choose from thermal printers for crisp, quiet receipts and dot-matrix printers for multi-part and kitchen printing. Our POS printers are built for high-volume use and integrate cleanly with our billing and restaurant systems.",
+    "heroImage": "/images/products/pos-printers/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Thermal and dot-matrix options",
+      "High-volume, dependable printing",
+      "Receipt, kitchen and invoice ready"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Thermal Printers",
+        "description": "Fast, quiet receipt printing for retail and hospitality."
+      },
+      {
+        "title": "Dot-Matrix Printers",
+        "description": "Multi-part and kitchen printing where it is needed."
+      },
+      {
+        "title": "Easy Integration",
+        "description": "Connects cleanly with our POS software."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Types",
+        "value": "Thermal and dot-matrix"
+      },
+      {
+        "label": "Best for",
+        "value": "Receipts, kitchen orders, invoices"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Retail stores",
+      "Restaurants and kitchens",
+      "Hospitality venues"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "touch-pos-terminals",
+      "pos-accessories"
+    ],
+    "isFeatured": false,
+    "displayOrder": 17,
+    "updatedAt": "2026-06-03",
+    "design": "hardware-gallery",
+    "theme": {
+      "acc": "#8a7d5a",
+      "ink": "#21201a"
+    }
+  },
+  {
+    "id": "barcode-scanners",
+    "slug": "barcode-scanners",
+    "categorySlug": "pos-hardware",
+    "name": "Barcode Scanners",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Quick, accurate scanning at every counter",
+    "shortDescription": "Handheld and fixed barcode scanners for fast, accurate checkout and stock-taking — 1D and 2D options for retail, pharmacy, warehouse and hospitality use.",
+    "description": "Our barcode scanners speed up checkout and inventory with reliable 1D and 2D reading. Choose handheld, hands-free or fixed models to suit your counter, stockroom or warehouse, all compatible with our POS and inventory software.",
+    "heroImage": "/images/products/barcode-scanners/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "1D and 2D scanning",
+      "Handheld, hands-free and fixed models",
+      "Compatible with our POS and inventory"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Fast Reading",
+        "description": "Quick, accurate scans speed up checkout and stock-taking."
+      },
+      {
+        "title": "1D & 2D Support",
+        "description": "Read standard and QR-style codes."
+      },
+      {
+        "title": "Flexible Form Factors",
+        "description": "Handheld, hands-free or fixed mounting."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Code types",
+        "value": "1D and 2D"
+      },
+      {
+        "label": "Best for",
+        "value": "Retail, pharmacy, warehouse, hospitality"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Retail and supermarkets",
+      "Pharmacies",
+      "Warehouses and stockrooms"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "barcode-printers",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": false,
+    "displayOrder": 18,
+    "updatedAt": "2026-06-03",
+    "design": "hardware-spotlight",
+    "theme": {
+      "acc": "#4f97a8",
+      "ink": "#1a242a"
+    }
+  },
+  {
+    "id": "barcode-printers",
+    "slug": "barcode-printers",
+    "categorySlug": "pos-hardware",
+    "name": "Barcode & Label Printers",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Print barcodes and labels on demand",
+    "shortDescription": "Desktop and industrial barcode and label printers for product labelling, shelf tags and logistics — durable, high-resolution and ready for retail, pharmacy and warehouse use.",
+    "description": "Print clear, durable barcodes and labels on demand with our desktop and industrial label printers. Ideal for product labelling, shelf-edge tags, pricing and logistics, they work hand-in-hand with our retail and inventory systems.",
+    "heroImage": "/images/products/barcode-printers/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Desktop and industrial models",
+      "High-resolution, durable labels",
+      "For labelling, tags and logistics"
+    ],
+    "keyFeatures": [
+      {
+        "title": "On-demand Printing",
+        "description": "Print product labels, shelf tags and pricing as needed."
+      },
+      {
+        "title": "Desktop & Industrial",
+        "description": "Models for low and high-volume environments."
+      },
+      {
+        "title": "System-ready",
+        "description": "Integrates with our retail and inventory software."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Types",
+        "value": "Desktop and industrial"
+      },
+      {
+        "label": "Best for",
+        "value": "Labelling, shelf tags, logistics"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Retail and supermarkets",
+      "Pharmacies",
+      "Warehouses and logistics"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "barcode-scanners",
+      "pos-printers"
+    ],
+    "isFeatured": false,
+    "displayOrder": 19,
+    "updatedAt": "2026-06-03",
+    "design": "hardware-compare",
+    "theme": {
+      "acc": "#9a6b5a",
+      "ink": "#241c18"
+    }
+  },
+  {
+    "id": "pos-accessories",
+    "slug": "pos-accessories",
+    "categorySlug": "pos-hardware",
+    "name": "POS Accessories",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Everything your counter needs",
+    "shortDescription": "A full range of POS accessories — cash drawers, programmable keyboards, magnetic card readers (MSR) and customer pole displays — to complete and upgrade your point-of-sale setup.",
+    "description": "Complete your point-of-sale setup with our range of accessories: sturdy cash drawers, programmable keyboards, magnetic stripe readers and customer pole displays. Reliable, compatible add-ons that keep your checkout running smoothly.",
+    "heroImage": "/images/products/pos-accessories/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Cash drawers, MSR and displays",
+      "Programmable keyboards",
+      "Compatible with our POS setups"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Cash Drawers",
+        "description": "Sturdy, secure drawers for everyday use."
+      },
+      {
+        "title": "Customer Displays",
+        "description": "Pole displays to show totals to customers."
+      },
+      {
+        "title": "MSR & Keyboards",
+        "description": "Magnetic card readers and programmable keyboards."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Includes",
+        "value": "Cash drawer, keyboard, MSR, customer display"
+      },
+      {
+        "label": "Best for",
+        "value": "Retail and hospitality counters"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Retail stores",
+      "Restaurants and cafes",
+      "Hospitality venues"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "touch-pos-terminals",
+      "pos-printers"
+    ],
+    "isFeatured": false,
+    "displayOrder": 20,
+    "updatedAt": "2026-06-03",
+    "design": "accessory-grid",
+    "theme": {
+      "acc": "#7c7f96",
+      "ink": "#1f2026"
+    }
+  },
+  {
+    "id": "biometric-devices",
+    "slug": "biometric-devices",
+    "categorySlug": "pos-hardware",
+    "name": "Biometric & Access Control Devices",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Secure attendance and access control",
+    "shortDescription": "Fingerprint and biometric devices for time & attendance and door access control — accurate, fast and ready to sync with HR and payroll for reliable workforce tracking.",
+    "description": "Our biometric fingerprint and access-control devices capture attendance accurately and secure your premises. They pair with our time & attendance and HR software so employee hours flow straight to payroll, with door-access control where needed.",
+    "heroImage": "/images/products/biometric-devices/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Fingerprint and biometric capture",
+      "Time & attendance ready",
+      "Door access control"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Accurate Capture",
+        "description": "Fast, reliable fingerprint and biometric recognition."
+      },
+      {
+        "title": "Attendance Sync",
+        "description": "Feeds hours into time & attendance and payroll."
+      },
+      {
+        "title": "Access Control",
+        "description": "Secure door access where required."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Fingerprint / biometric"
+      },
+      {
+        "label": "Use",
+        "value": "Time & attendance, access control"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Offices and workplaces",
+      "Multi-location businesses",
+      "Secure facilities"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "time-attendance-software",
+      "office-automation-networking"
+    ],
+    "isFeatured": false,
+    "displayOrder": 21,
+    "updatedAt": "2026-06-03",
+    "design": "security-focus",
+    "theme": {
+      "acc": "#4f8a8f",
+      "ink": "#16242a"
+    }
+  },
+  {
+    "id": "office-automation-networking",
+    "slug": "office-automation-networking",
+    "categorySlug": "pos-hardware",
+    "name": "Office Automation & Networking",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "tagline": "Servers, desktops, UPS and networking",
+    "shortDescription": "Office automation and networking hardware — servers, desktops, UPS and network products — supplied, installed and supported to keep your business infrastructure running reliably.",
+    "description": "From servers and desktops to UPS units and networking products, we supply and support the infrastructure your business runs on. We help you specify, install and maintain reliable office automation and networking hardware.",
+    "heroImage": "/images/products/office-automation-networking/hero.jpg",
+    "gallery": [],
+    "highlights": [
+      "Servers, desktops and UPS",
+      "Networking products",
+      "Supplied, installed and supported"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Servers & Desktops",
+        "description": "Reliable computing hardware for your business."
+      },
+      {
+        "title": "Power Protection",
+        "description": "UPS units to keep critical systems running."
+      },
+      {
+        "title": "Networking",
+        "description": "Network products with installation and support."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Includes",
+        "value": "Servers, desktops, UPS, network products"
+      },
+      {
+        "label": "Service",
+        "value": "Supply, install and support"
+      }
+    ],
+    "integrations": [],
+    "audience": [
+      "Offices and SMBs",
+      "Retail and hospitality back-office",
+      "Multi-location businesses"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "relatedSlugs": [
+      "biometric-devices",
+      "touch-pos-terminals"
+    ],
+    "isFeatured": false,
+    "displayOrder": 22,
+    "updatedAt": "2026-06-03",
+    "design": "infrastructure",
+    "theme": {
+      "acc": "#5a7da0",
+      "ink": "#1a232e"
+    }
+  }
+]

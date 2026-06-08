@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hotel-management",
+    "slug": "hotel-management",
+    "name": "Hotel Management Software",
+    "tagline": "Run your entire property from one platform",
+    "description": "End-to-end hotel technology for properties of every size — front-office and reservations, channel distribution, direct booking, revenue management and a branded website. Cloud or on-premise, built for independent hotels, resorts and chains.",
+    "productType": "Software",
+    "image": "/images/categories/hotel-management.jpg",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "restaurant-management",
+    "slug": "restaurant-management",
+    "name": "Restaurant Management Software",
+    "tagline": "Smarter service, faster tables, tighter control",
+    "description": "Point-of-sale and management built for restaurants, cafes, QSR and bars — orders, tables, menus, billing, inventory and multi-outlet control. Available as a cloud system or an offline-capable desktop solution.",
+    "productType": "Software",
+    "image": "/images/categories/restaurant-management.jpg",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "retail-management",
+    "slug": "retail-management",
+    "name": "Retail Management Software",
+    "tagline": "One POS for a single store or a chain",
+    "description": "Unified retail POS and management for supermarkets, pharmacies, fashion, electronics and more — billing, inventory, accounting and CRM across one outlet or many, on the cloud or on-premise.",
+    "productType": "Software",
+    "image": "/images/categories/retail-management.jpg",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "salon-spa",
+    "slug": "salon-spa",
+    "name": "Salon & Spa Software",
+    "tagline": "Booking, billing and growth in one app",
+    "description": "All-in-one cloud management for salons, spas and wellness centres — online booking, client CRM, staff and inventory management, billing and automated marketing.",
+    "productType": "Software",
+    "image": "/images/categories/salon-spa.jpg",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "erp-accounting",
+    "slug": "erp-accounting",
+    "name": "ERP & Accounting Software",
+    "tagline": "Finance, operations and inventory, unified",
+    "description": "Cloud financial management and full ERP for growing businesses — real-time reporting, multi-entity and multi-currency, automated compliance, inventory and order management.",
+    "productType": "Software",
+    "image": "/images/categories/erp-accounting.jpg",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "hr-payroll",
+    "slug": "hr-payroll",
+    "name": "HR & Payroll Software",
+    "tagline": "Hire-to-retire, payroll to performance",
+    "description": "Integrated HR and payroll covering the full employee lifecycle — recruitment, onboarding, payroll with WPS, leave, self-service and performance — for businesses of every size.",
+    "productType": "Software",
+    "image": "/images/categories/hr-payroll.jpg",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "time-attendance",
+    "slug": "time-attendance",
+    "name": "Time & Attendance",
+    "tagline": "Accurate attendance, effortless payroll",
+    "description": "Cloud and biometric time & attendance — capture shifts, rosters and overtime in real time and sync straight to payroll, with multi-location and access-control support.",
+    "productType": "Software",
+    "image": "/images/categories/time-attendance.jpg",
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "id": "pos-hardware",
+    "slug": "pos-hardware",
+    "name": "POS Hardware & Accessories",
+    "tagline": "Reliable hardware for retail and hospitality",
+    "description": "A complete range of point-of-sale hardware — touch terminals, printers, barcode scanners and printers, accessories, biometric devices and networking — supplied, installed and supported across the UAE.",
+    "productType": "Hardware",
+    "image": "/images/categories/pos-hardware.jpg",
+    "displayOrder": 8,
+    "isActive": true
+  }
+]
