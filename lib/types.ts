@@ -59,6 +59,24 @@ export interface TeamMember {
   email?: string;
 }
 
+export interface BlogSection {
+  heading: string;
+  paragraphs: string[];
+  bullets?: string[];
+  quote?: { text: string; by?: string };
+  stat?: { v: string; l: string };
+}
+
+export interface BlogFaq {
+  q: string;
+  a: string;
+}
+
+export interface BlogStat {
+  v: string;
+  l: string;
+}
+
 export interface NewsArticle {
   id: string;
   slug: string;
@@ -67,8 +85,21 @@ export interface NewsArticle {
   content: string;
   author: string;
   publishDate: string;
-  category: "Company News" | "Product Launches" | "Industry Insights";
+  category: string;
   featuredImage: string;
   readingTime: number;
+
+  /** Rich blog fields (microsite templates) — optional, backward compatible. */
+  authorRole?: string;
+  tags?: string[];
+  design?: string;
+  theme?: { acc: string; ink: string };
+  secondaryImage?: string;
+  lead?: string;
+  sections?: BlogSection[];
+  takeaways?: string[];
+  stats?: BlogStat[];
+  faqs?: BlogFaq[];
+  relatedSlugs?: string[];
 }
 
