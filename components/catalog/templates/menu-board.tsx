@@ -9,7 +9,13 @@ import { BUSINESS } from "@/lib/business";
 import { TemplateProps, enquiry, RelatedStrip, FaqList, StatBand } from "./shared";
 
 /* Restaurant cloud POS · warm hospitality · menu-styled feature list */
-const ORDER_TYPES = ["Dine-in", "Takeaway", "Delivery", "Room service"];
+const ORDER_TYPES = [
+  "Dine-in",
+  "Takeaway",
+  "Delivery",
+  "Room service",
+  "No charge orders",
+];
 
 export function MenuBoardTemplate({ product, category, related }: TemplateProps) {
   const paras = product.description.split("\n").filter(Boolean);

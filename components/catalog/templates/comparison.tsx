@@ -5,7 +5,7 @@ import { Section } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
 import { SmartImage } from "@/components/ui/smart-image";
 import { CtaBanner } from "@/components/home/cta";
-import { TemplateProps, enquiry } from "./shared";
+import { TemplateProps, enquiry, VideoGallery } from "./shared";
 
 /* Premium analytics · fully dark · emerald accent */
 export function ComparisonTemplate({ product, related }: TemplateProps) {
@@ -287,6 +287,7 @@ export function ComparisonTemplate({ product, related }: TemplateProps) {
         </Section>
       )}
 
+      <VideoGallery product={product} />
       <CtaBanner
         heading={`See what ${product.name} can do for you`}
         text="Get a tailored walkthrough and quote for your property or business."

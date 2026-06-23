@@ -19,6 +19,7 @@ import {
   RelatedStrip,
   FaqList,
   StatBand,
+  VideoGallery,
 } from "./shared";
 
 /* Hotel channel manager · dark typographic hero · connectivity grid signature · light features (theme via shell vars) */
@@ -291,6 +292,7 @@ export function DistributionNetworkTemplate({
         </Section>
       )}
 
+      <VideoGallery product={product} />
       <FaqList product={product} />
       <RelatedStrip related={related} />
       <CtaBanner

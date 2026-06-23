@@ -19,6 +19,7 @@ import {
   RelatedStrip,
   FaqList,
   StatBand,
+  VideoGallery,
 } from "./shared";
 
 /* Full-bleed hero · booking funnel signature · conversion stat band · light body (theme via shell vars) */
@@ -286,6 +287,7 @@ export function ConversionFlowTemplate({
         </Container>
       </Section>
 
+      <VideoGallery product={product} />
       <FaqList product={product} />
       <RelatedStrip related={related} />
       <CtaBanner

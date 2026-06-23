@@ -121,7 +121,25 @@
     "theme": {
       "acc": "#c2a36a",
       "ink": "#16233c"
-    }
+    },
+    "videos": [
+      {
+        "title": "Agentic PMS",
+        "youtubeId": "bpXk2JhaUSU"
+      },
+      {
+        "title": "PMS Check-In",
+        "youtubeId": "uHx9Yyg3Gp8"
+      },
+      {
+        "title": "Room Allocation in PMS",
+        "youtubeId": "cNRYDL1X4DM"
+      },
+      {
+        "title": "Unified Product Overview",
+        "youtubeId": "dglNfRHGMck"
+      }
+    ]
   },
   {
     "id": "hotel-management-software-desktop",
@@ -364,7 +382,17 @@
     "theme": {
       "acc": "#3b82a6",
       "ink": "#152836"
-    }
+    },
+    "videos": [
+      {
+        "title": "Manage Rates & Inventory Instantly",
+        "youtubeId": "bjzEpkgc34w"
+      },
+      {
+        "title": "Update Stop-Sell Instantly",
+        "youtubeId": "zGtun63wdU4"
+      }
+    ]
   },
   {
     "id": "hotel-booking-engine",
@@ -485,7 +513,13 @@
     "theme": {
       "acc": "#6d76c9",
       "ink": "#1e2138"
-    }
+    },
+    "videos": [
+      {
+        "title": "New Booking Engine",
+        "youtubeId": "ixviwlrAT_Q"
+      }
+    ]
   },
   {
     "id": "hotel-revenue-management",
@@ -605,7 +639,13 @@
     "theme": {
       "acc": "#48b78a",
       "ink": "#0f1f1b"
-    }
+    },
+    "videos": [
+      {
+        "title": "Rates That Optimise Themselves",
+        "youtubeId": "etXSXI6_7wI"
+      }
+    ]
   },
   {
     "id": "hotel-restaurant-website-builder",
@@ -724,7 +764,13 @@
     "theme": {
       "acc": "#a47bbf",
       "ink": "#241f2e"
-    }
+    },
+    "videos": [
+      {
+        "title": "Website Builder",
+        "youtubeId": "Z4cnzmuPUuw"
+      }
+    ]
   },
   {
     "id": "restaurant-management-cloud",
@@ -735,13 +781,13 @@
     "template": "software",
     "deploymentType": "Cloud",
     "tagline": "Run your restaurant from anywhere",
-    "shortDescription": "A cloud restaurant POS that needs only a browser and internet to run your F&B business. Handle dine-in, takeaway, delivery and room-service orders, plus tables, menus, billing, inventory and multi-outlet control — with a tablet ordering app that works offline.",
+    "shortDescription": "A cloud restaurant POS that needs only a browser and internet to run your F&B business. Handle dine-in, takeaway, delivery and room-service orders, plus tables, menus, billing, inventory and multi-outlet control — with a tablet ordering app.",
     "description": "Our cloud restaurant POS lets you run and monitor your F&B business from anywhere, with instant updates and zero downtime. Manage orders across dine-in, takeaway, delivery and room service, and control tables, menus, billing, inventory and shifts from one system.\n\nA tablet-based ordering app works with or without internet, online-ordering platforms sync automatically, and multi-outlet tools keep chains consolidated.",
     "heroImage": "/images/products/restaurant-management-cloud/hero.jpg",
     "gallery": [],
     "highlights": [
       "Manage your restaurant from any device",
-      "Tablet ordering app works online and offline",
+      "Tablet ordering app for fast table-side orders",
       "Online-ordering and delivery management"
     ],
     "keyFeatures": [
@@ -768,16 +814,32 @@
       {
         "title": "Multi-outlet & Reports",
         "description": "Manage many outlets from one place with consolidated, customisable reports."
+      },
+      {
+        "title": "3rd-Party Food Aggregators",
+        "description": "Connect to popular online food-ordering and delivery aggregator apps so external orders flow straight into the POS — no separate tablets to juggle."
+      },
+      {
+        "title": "3rd-Party Financial Software",
+        "description": "Integrate with leading financial and accounting software so sales, taxes and day-close figures post automatically to your books."
+      },
+      {
+        "title": "Kitchen Display System (KDS)",
+        "description": "Send orders directly to kitchen screens — no paper tickets, clearer preparation queues and faster table turnaround."
+      },
+      {
+        "title": "WhatsApp Integration",
+        "description": "Share bills, order confirmations and offers with guests over WhatsApp, straight from the POS."
       }
     ],
     "specifications": [
       {
         "label": "Deployment",
-        "value": "Cloud (browser-based) + offline tablet app"
+        "value": "Cloud (browser-based) and Desktop Application + offline tablet app"
       },
       {
         "label": "Order types",
-        "value": "Dine-in, takeaway, delivery, room service"
+        "value": "Dine-in, takeaway, delivery, room service, no charge orders"
       },
       {
         "label": "Languages",
@@ -1220,7 +1282,7 @@
     "tagline": "Streamline, automate and grow your salon",
     "shortDescription": "An all-in-one cloud platform for salons, spas and wellness centres — 24/7 online booking, client CRM, staff and inventory management, billing and automated marketing. Reduce no-shows, retain clients and run one location or many from anywhere.",
     "description": "Our salon and spa software brings booking, billing, clients, staff, inventory and marketing into one cloud platform. Clients book online around the clock with automatic reminders, while you manage schedules, stock and staff performance from any device.\n\nBuilt-in CRM, loyalty, gift cards and automated WhatsApp, SMS and email campaigns help you fill the calendar and keep clients coming back — for independent salons and multi-location chains alike.",
-    "heroImage": "/images/products/salon-spa-management-software/hero.jpg",
+    "heroImage": "/images/products/salon-spa-management-software/b.jpg",
     "gallery": [],
     "highlights": [
       "24/7 online booking with automatic reminders",

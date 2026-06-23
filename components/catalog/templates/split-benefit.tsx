@@ -12,6 +12,7 @@ import {
   RelatedStrip,
   FaqList,
   StatBand,
+  VideoGallery,
 } from "./shared";
 
 /* Editorial · cinematic full-bleed · navy + gold */
@@ -215,6 +216,7 @@ export function SplitBenefitTemplate({
         </Container>
       </Section>
 
+      <VideoGallery product={product} />
       <FaqList product={product} />
       <RelatedStrip related={related} />
       <CtaBanner

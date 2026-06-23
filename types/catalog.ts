@@ -90,6 +90,9 @@ export interface Product {
   /** YouTube embed URL (client supplies later); null = no video block. */
   videoUrl: string | null;
 
+  /** Product demo videos (YouTube). Rendered as a "See it in action" block. */
+  videos?: { title: string; youtubeId: string }[];
+
   /** Block order for the detail page. */
   sections: SectionKey[];
 

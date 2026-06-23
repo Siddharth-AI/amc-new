@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Play } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { SmartImage } from "@/components/ui/smart-image";
@@ -98,6 +98,53 @@ export function FaqList({ product }: { product: Product }) {
               </details>
             ))}
           </div>
+        </div>
+      </Container>
+    </Section>
+  );
+}
+
+/** "See it in action" — product demo videos (YouTube embeds), themed. */
+export function VideoGallery({ product }: { product: Product }) {
+  const videos = product.videos ?? [];
+  if (videos.length === 0) return null;
+  const single = videos.length === 1;
+  return (
+    <Section
+      padding="none"
+      className="border-t border-border bg-surface py-16 md:py-24">
+      <Container>
+        <div data-reveal className="mb-10 max-w-2xl">
+          <p className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--acc)]">
+            <Play className="h-3.5 w-3.5" /> Watch
+          </p>
+          <h2 className="text-navy">See it in action</h2>
+        </div>
+        <div
+          data-reveal
+          className={`grid gap-6 ${single ? "mx-auto max-w-4xl" : "md:grid-cols-2"}`}>
+          {videos.map((v) => (
+            <figure
+              key={v.youtubeId}
+              className="overflow-hidden border border-border bg-[var(--ink)]">
+              <div className="relative aspect-video w-full">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${v.youtubeId}`}
+                  title={v.title}
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 h-full w-full"
+                />
+              </div>
+              <figcaption className="flex items-center gap-2.5 px-5 py-4 text-sm font-medium text-navy">
+                <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--acc)]/15 text-[var(--acc)]">
+                  <Play className="h-3.5 w-3.5" />
+                </span>
+                {v.title}
+              </figcaption>
+            </figure>
+          ))}
         </div>
       </Container>
     </Section>

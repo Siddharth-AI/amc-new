@@ -12,6 +12,7 @@ import {
   RelatedStrip,
   FaqList,
   StatBand,
+  VideoGallery,
 } from "./shared";
 
 /* Website builder for hotels & restaurants · visual / creative · browser-mockup hero + template gallery */
@@ -310,6 +311,7 @@ export function GalleryShowcaseTemplate({
         </Container>
       </Section>
 
+      <VideoGallery product={product} />
       <FaqList product={product} />
       <RelatedStrip related={related} />
       <CtaBanner
