@@ -1,7 +1,8 @@
 // app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site-config";
-import { getCategoriesServer, getProductsServer, getNewsServer } from "@/lib/server-data";
+import { getNewsServer } from "@/lib/server-data";
+import { getCategories, getProducts } from "@/lib/catalog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = SITE_URL;
@@ -52,7 +53,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // ============================================================================
   // PRODUCT CATEGORY PAGES
   // ============================================================================
-  const categories = getCategoriesServer();
+  const categories = getCategories();
   const categoryPages: MetadataRoute.Sitemap = categories.map((category) => ({
     url: `${baseUrl}/products/${category.slug}`,
     lastModified: currentDate,
@@ -63,7 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // ============================================================================
   // PRODUCT PAGES
   // ============================================================================
-  const products = getProductsServer();
+  const products = getProducts();
   const productPages: MetadataRoute.Sitemap = products.map((product) => ({
     url: `${baseUrl}/products/${product.categorySlug}/${product.slug}`,
     lastModified: currentDate,

@@ -1883,7 +1883,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "All-in-one touch terminals for fast checkout",
-    "shortDescription": "Integrated and modular touch-screen POS terminals built for retail and hospitality — durable, responsive and ready to run your billing software at the counter, drive-through or table-side.",
+    "shortDescription": "Powerful, all-in-one POS touch terminal built for speed and reliability — responsive touchscreen, multiple connectivity options and a compact design that fits seamlessly into retail and hospitality environments.",
     "description": "Our range of integrated touch POS terminals combines screen, processor and peripherals in one reliable unit, with modular options when you need flexibility. Built for continuous use in busy retail and hospitality environments, they pair seamlessly with our POS software.",
     "heroImage": "/images/products/touch-pos-terminals/hero.jpg",
     "gallery": [],
@@ -1938,7 +1938,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 16,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "spec-sheet",
     "theme": {
       "acc": "#62788f",
@@ -1954,7 +1954,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Fast, reliable receipt and kitchen printing",
-    "shortDescription": "Thermal and dot-matrix POS printers for receipts, kitchen orders and invoices — fast, quiet and dependable, with options for every retail and hospitality counter.",
+    "shortDescription": "High-speed POS printers built for every kind of business — easy paper loading and quick ribbon replacement, with reliable connectivity and consistent performance.",
     "description": "Choose from thermal printers for crisp, quiet receipts and dot-matrix printers for multi-part and kitchen printing. Our POS printers are built for high-volume use and integrate cleanly with our billing and restaurant systems.",
     "heroImage": "/images/products/pos-printers/hero.jpg",
     "gallery": [],
@@ -2009,7 +2009,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 17,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "hardware-gallery",
     "theme": {
       "acc": "#8a7d5a",
@@ -2025,7 +2025,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Quick, accurate scanning at every counter",
-    "shortDescription": "Handheld and fixed barcode scanners for fast, accurate checkout and stock-taking — 1D and 2D options for retail, pharmacy, warehouse and hospitality use.",
+    "shortDescription": "Fast, accurate barcode scanners in handheld and wireless models to fit any business — improving productivity and reducing manual input errors.",
     "description": "Our barcode scanners speed up checkout and inventory with reliable 1D and 2D reading. Choose handheld, hands-free or fixed models to suit your counter, stockroom or warehouse, all compatible with our POS and inventory software.",
     "heroImage": "/images/products/barcode-scanners/hero.jpg",
     "gallery": [],
@@ -2080,7 +2080,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 18,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "hardware-spotlight",
     "theme": {
       "acc": "#4f97a8",
@@ -2096,7 +2096,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Print barcodes and labels on demand",
-    "shortDescription": "Desktop and industrial barcode and label printers for product labelling, shelf tags and logistics — durable, high-resolution and ready for retail, pharmacy and warehouse use.",
+    "shortDescription": "Sharp, durable barcode label printers for F&B, retail and logistics — supporting multiple label sizes and printing technologies for accurate, efficient labelling.",
     "description": "Print clear, durable barcodes and labels on demand with our desktop and industrial label printers. Ideal for product labelling, shelf-edge tags, pricing and logistics, they work hand-in-hand with our retail and inventory systems.",
     "heroImage": "/images/products/barcode-printers/hero.jpg",
     "gallery": [],
@@ -2151,7 +2151,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 19,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "hardware-compare",
     "theme": {
       "acc": "#9a6b5a",
@@ -2167,7 +2167,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Everything your counter needs",
-    "shortDescription": "A full range of POS accessories — cash drawers, programmable keyboards, magnetic card readers (MSR) and customer pole displays — to complete and upgrade your point-of-sale setup.",
+    "shortDescription": "A complete range of POS accessories that enhance functionality and efficiency — pole and secondary displays for price visibility, MSR card readers for fast card reading, fingerprint modules for secure authentication and durable cash drawers for safe, organised cash handling.",
     "description": "Complete your point-of-sale setup with our range of accessories: sturdy cash drawers, programmable keyboards, magnetic stripe readers and customer pole displays. Reliable, compatible add-ons that keep your checkout running smoothly.",
     "heroImage": "/images/products/pos-accessories/hero.jpg",
     "gallery": [],
@@ -2222,7 +2222,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 20,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "accessory-grid",
     "theme": {
       "acc": "#7c7f96",
@@ -2238,7 +2238,7 @@
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Secure attendance and access control",
-    "shortDescription": "Fingerprint and biometric devices for time & attendance and door access control — accurate, fast and ready to sync with HR and payroll for reliable workforce tracking.",
+    "shortDescription": "Advanced fingerprint devices for accurate time-attendance tracking and secure access control, maintaining reliable real-time records.",
     "description": "Our biometric fingerprint and access-control devices capture attendance accurately and secure your premises. They pair with our time & attendance and HR software so employee hours flow straight to payroll, with door-access control where needed.",
     "heroImage": "/images/products/biometric-devices/hero.jpg",
     "gallery": [],
@@ -2293,7 +2293,7 @@
     ],
     "isFeatured": false,
     "displayOrder": 21,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "security-focus",
     "theme": {
       "acc": "#4f8a8f",
@@ -2304,19 +2304,20 @@
     "id": "office-automation-networking",
     "slug": "office-automation-networking",
     "categorySlug": "pos-hardware",
-    "name": "Office Automation & Networking",
+    "name": "Office Automation, Networking & CCTV",
     "productType": "Hardware",
     "template": "hardware",
     "deploymentType": null,
     "tagline": "Servers, desktops, UPS and networking",
-    "shortDescription": "Office automation and networking hardware — servers, desktops, UPS and network products — supplied, installed and supported to keep your business infrastructure running reliably.",
+    "shortDescription": "Reliable networking and surveillance solutions for modern business environments — switches, structured cabling and wall LAN points for stable connectivity, plus high-quality CCTV components for enhanced security.",
     "description": "From servers and desktops to UPS units and networking products, we supply and support the infrastructure your business runs on. We help you specify, install and maintain reliable office automation and networking hardware.",
     "heroImage": "/images/products/office-automation-networking/hero.jpg",
     "gallery": [],
     "highlights": [
       "Servers, desktops and UPS",
       "Networking products",
-      "Supplied, installed and supported"
+      "Supplied, installed and supported",
+      "CCTV and surveillance components"
     ],
     "keyFeatures": [
       {
@@ -2330,6 +2331,10 @@
       {
         "title": "Networking",
         "description": "Network products with installation and support."
+      },
+      {
+        "title": "CCTV & Surveillance",
+        "description": "IP and analogue CCTV, recorders and cabling for round-the-clock security."
       }
     ],
     "specifications": [
@@ -2364,11 +2369,309 @@
     ],
     "isFeatured": false,
     "displayOrder": 22,
-    "updatedAt": "2026-06-03",
+    "updatedAt": "2026-06-13",
     "design": "infrastructure",
     "theme": {
       "acc": "#5a7da0",
       "ink": "#1a232e"
     }
+  },
+  {
+    "categorySlug": "pos-hardware",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "gallery": [],
+    "integrations": [],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "isFeatured": false,
+    "updatedAt": "2026-06-13",
+    "id": "pos-consumables",
+    "slug": "pos-consumables",
+    "name": "POS Consumables",
+    "design": "accessory-grid",
+    "theme": {
+      "acc": "#9a8c5f",
+      "ink": "#201e17"
+    },
+    "displayOrder": 23,
+    "tagline": "Papers, labels, ribbons and cards that keep you running",
+    "shortDescription": "High-quality POS consumables for consistent, reliable performance — thermal roll papers, barcode labels, printer ribbons and PVC magstripe cards.",
+    "description": "A full range of POS consumables to keep your counter running without interruption. Thermal roll papers for clear receipts, barcode labels for accurate product identification, ribbons for sharp long-lasting print and PVC magstripe cards for secure account and identification applications.",
+    "heroImage": "/images/products/pos-consumables/hero.jpg",
+    "highlights": [
+      "Thermal receipt roll papers",
+      "Barcode and product labels",
+      "Ribbons and PVC magstripe cards"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Thermal Roll Papers",
+        "description": "Clear, smudge-free receipts for any thermal printer."
+      },
+      {
+        "title": "Barcode Labels",
+        "description": "Accurate product identification across sizes and materials."
+      },
+      {
+        "title": "Printer Ribbons",
+        "description": "Sharp, long-lasting print for dot-matrix and label printers."
+      },
+      {
+        "title": "PVC Magstripe Cards",
+        "description": "Secure account, loyalty and identification cards."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Range",
+        "value": "Rolls, labels, ribbons, cards"
+      },
+      {
+        "label": "Best for",
+        "value": "Retail, F&B and hospitality"
+      }
+    ],
+    "audience": [
+      "Retail stores",
+      "Restaurants and cafes",
+      "Supermarkets"
+    ],
+    "relatedSlugs": [
+      "pos-printers",
+      "pos-accessories"
+    ]
+  },
+  {
+    "categorySlug": "pos-hardware",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "gallery": [],
+    "integrations": [],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "isFeatured": false,
+    "updatedAt": "2026-06-13",
+    "id": "barcode-weighing-scale",
+    "slug": "barcode-weighing-scale",
+    "name": "Barcode Weighing Scales",
+    "design": "hardware-spotlight",
+    "theme": {
+      "acc": "#5f8f7a",
+      "ink": "#17241f"
+    },
+    "displayOrder": 24,
+    "tagline": "Weigh and label in one step",
+    "shortDescription": "Accurate weighing scales with integrated barcode label printing — ideal for supermarkets, retail stores and any business that needs precise measurement and labelling.",
+    "description": "Weighing scales with built-in barcode label printing that weigh, price and label loose goods in a single step. Accurate and consistent, they suit supermarkets, groceries and delis handling fresh and bulk products.",
+    "heroImage": "/images/products/barcode-weighing-scale/hero.jpg",
+    "highlights": [
+      "Integrated barcode label printing",
+      "Precise, repeatable weighing",
+      "Built for busy retail counters"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Weigh & Print",
+        "description": "Prints a barcode label with weight and price in a single step."
+      },
+      {
+        "title": "Accurate Measurement",
+        "description": "Reliable, repeatable weighing for fresh and loose goods."
+      },
+      {
+        "title": "Retail-ready",
+        "description": "Suited to supermarkets, groceries and delis."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Label-printing weighing scale"
+      },
+      {
+        "label": "Best for",
+        "value": "Supermarkets and grocery"
+      }
+    ],
+    "audience": [
+      "Supermarkets",
+      "Grocery stores",
+      "Delis and butchers"
+    ],
+    "relatedSlugs": [
+      "barcode-printers",
+      "pos-accessories"
+    ]
+  },
+  {
+    "categorySlug": "pos-hardware",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "gallery": [],
+    "integrations": [],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "isFeatured": false,
+    "updatedAt": "2026-06-13",
+    "id": "id-card-printers",
+    "slug": "id-card-printers",
+    "name": "ID Card Printers",
+    "design": "hardware-gallery",
+    "theme": {
+      "acc": "#7b6ca6",
+      "ink": "#201c2b"
+    },
+    "displayOrder": 25,
+    "tagline": "Professional PVC ID cards, printed in-house",
+    "shortDescription": "Professional ID card printers for high-quality PVC card printing with optional magnetic stripe and smart-card encoding — ideal for secure attendance management and access.",
+    "description": "Print crisp, durable PVC ID cards on demand, single- or dual-sided, with optional magnetic-stripe and smart-card encoding. Ideal for issuing secure staff, member and access cards for attendance and account applications.",
+    "heroImage": "/images/products/id-card-printers/hero.jpg",
+    "highlights": [
+      "High-quality PVC card printing",
+      "Optional magstripe and smart-card encoding",
+      "Ideal for access and attendance"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Quality Card Printing",
+        "description": "Crisp, durable single- or dual-sided PVC cards."
+      },
+      {
+        "title": "Encoding Options",
+        "description": "Optional magnetic-stripe and smart-card encoding."
+      },
+      {
+        "title": "Access & Attendance",
+        "description": "Issue secure staff, member and access cards in-house."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "PVC ID card printer"
+      },
+      {
+        "label": "Encoding",
+        "value": "Optional magstripe / smart card"
+      },
+      {
+        "label": "Best for",
+        "value": "Access and attendance"
+      }
+    ],
+    "audience": [
+      "Offices",
+      "Schools and institutions",
+      "Clubs and facilities"
+    ],
+    "relatedSlugs": [
+      "biometric-devices",
+      "pos-accessories"
+    ]
+  },
+  {
+    "categorySlug": "pos-hardware",
+    "productType": "Hardware",
+    "template": "hardware",
+    "deploymentType": null,
+    "gallery": [],
+    "integrations": [
+      "Restaurant POS"
+    ],
+    "faqs": [],
+    "videoUrl": null,
+    "sections": [
+      "hero",
+      "overview",
+      "highlights",
+      "features",
+      "related",
+      "cta"
+    ],
+    "isFeatured": false,
+    "updatedAt": "2026-06-13",
+    "id": "kds",
+    "slug": "kds",
+    "name": "Kitchen Display System (KDS)",
+    "design": "spec-sheet",
+    "theme": {
+      "acc": "#c96f5a",
+      "ink": "#241612"
+    },
+    "displayOrder": 26,
+    "tagline": "Orders on screen, not on paper",
+    "shortDescription": "A digital kitchen display system for quick operations with real-time order management — improving kitchen coordination, reducing errors and speeding up food preparation.",
+    "description": "A digital kitchen display that replaces paper tickets with real-time orders straight from the POS. Colour-coded stations and timers keep preparation on track, improving coordination, cutting errors and speeding up service.",
+    "heroImage": "/images/products/kds/hero.jpg",
+    "highlights": [
+      "Real-time order management",
+      "Faster kitchen coordination",
+      "Fewer errors, less paper"
+    ],
+    "keyFeatures": [
+      {
+        "title": "Real-time Orders",
+        "description": "Tickets appear instantly from the POS — no paper KOTs."
+      },
+      {
+        "title": "Kitchen Coordination",
+        "description": "Colour-coded stations and timers keep prep on track."
+      },
+      {
+        "title": "Fewer Errors",
+        "description": "Clear digital tickets reduce mistakes and remakes."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Digital kitchen display"
+      },
+      {
+        "label": "Pairs with",
+        "value": "Our restaurant POS"
+      },
+      {
+        "label": "Best for",
+        "value": "Restaurants and cloud kitchens"
+      }
+    ],
+    "audience": [
+      "Restaurants",
+      "Cloud kitchens",
+      "Cafes and QSRs"
+    ],
+    "relatedSlugs": [
+      "touch-pos-terminals",
+      "pos-printers"
+    ]
   }
 ]

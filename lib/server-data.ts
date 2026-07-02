@@ -1,89 +1,26 @@
 /**
- * Server-side data fetching utilities for SSR/ISR
- * These functions work with JSON data files for static generation
+ * Server-side data utilities for news/insights (static generation).
+ * Product and category data now come from `@/lib/catalog`.
  */
 
-import { categories, products, news } from "./data";
-import type { Category, Product, NewsArticle } from "./types";
+import { news } from "./data";
+import type { NewsArticle } from "./types";
 
-/**
- * Get all categories (server-side)
- */
-export function getCategoriesServer(): Category[] {
-  return categories;
-}
-
-/**
- * Get category by slug (server-side)
- */
-export function getCategoryBySlugServer(slug: string): Category | undefined {
-  return categories.find((cat) => cat.slug === slug);
-}
-
-/**
- * Get all products (server-side)
- */
-export function getProductsServer(): Product[] {
-  return products;
-}
-
-/**
- * Get products by category slug (server-side)
- */
-export function getProductsByCategoryServer(categorySlug: string): Product[] {
-  return products.filter((product) => product.categorySlug === categorySlug);
-}
-
-/**
- * Get product by slugs (server-side)
- */
-export function getProductBySlugsServer(
-  categorySlug: string,
-  productSlug: string
-): Product | undefined {
-  return products.find(
-    (product) =>
-      product.categorySlug === categorySlug && product.slug === productSlug
-  );
-}
-
-/**
- * Get related products (server-side)
- */
-export function getRelatedProductsServer(
-  productId: string,
-  categorySlug: string,
-  limit: number = 4
-): Product[] {
-  return products
-    .filter(
-      (product) =>
-        product.id !== productId && product.categorySlug === categorySlug
-    )
-    .slice(0, limit);
-}
-
-/**
- * Get all news articles (server-side)
- */
+/** Get all news articles (server-side). */
 export function getNewsServer(): NewsArticle[] {
   return news;
 }
 
-/**
- * Get news article by slug (server-side)
- */
+/** Get a news article by slug (server-side). */
 export function getNewsBySlugServer(slug: string): NewsArticle | undefined {
   return news.find((article) => article.slug === slug);
 }
 
-/**
- * Get related news articles (server-side)
- */
+/** Get related news articles by category (server-side). */
 export function getRelatedNewsServer(
   articleId: string,
   category: string,
-  limit: number = 3
+  limit = 3
 ): NewsArticle[] {
   return news
     .filter(
@@ -92,9 +29,7 @@ export function getRelatedNewsServer(
     .slice(0, limit);
 }
 
-/**
- * Helper to create URL slug from name and ID
- */
+/** Helper to create a URL slug from a name and ID. */
 export function createSlug(name: string, id: string): string {
   return `${name
     .toLowerCase()
@@ -103,11 +38,8 @@ export function createSlug(name: string, id: string): string {
     .replace(/^-|-$/g, "")}-${id}`;
 }
 
-/**
- * Helper to extract ID from slug
- */
+/** Helper to extract an ID from a slug. */
 export function extractIdFromSlug(slug: string): string {
   const parts = slug.split("-");
   return parts[parts.length - 1] || slug;
 }
-
