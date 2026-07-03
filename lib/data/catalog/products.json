@@ -835,7 +835,7 @@
     "specifications": [
       {
         "label": "Deployment",
-        "value": "Cloud (browser-based) and Desktop Application + offline tablet app"
+        "value": "Cloud (browser-based) and Desktop Application"
       },
       {
         "label": "Order types",
@@ -2311,7 +2311,7 @@
     "tagline": "Servers, desktops, UPS and networking",
     "shortDescription": "Reliable networking and surveillance solutions for modern business environments — switches, structured cabling and wall LAN points for stable connectivity, plus high-quality CCTV components for enhanced security.",
     "description": "From servers and desktops to UPS units and networking products, we supply and support the infrastructure your business runs on. We help you specify, install and maintain reliable office automation and networking hardware.",
-    "heroImage": "/images/products/office-automation-networking/hero.jpg",
+    "heroImage": "/images/products/office-automation-networking/hero.png",
     "gallery": [],
     "highlights": [
       "Servers, desktops and UPS",

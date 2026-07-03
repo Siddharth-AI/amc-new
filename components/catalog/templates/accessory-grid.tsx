@@ -17,54 +17,55 @@ export function AccessoryGridTemplate({
   const paras = product.description.split("\n").filter(Boolean);
   return (
     <article>
-      {/* Hero — clean light, headline left + CTAs */}
-      <section className="relative overflow-hidden border-b border-border bg-background pt-22">
-        <Container className="relative">
-          <div className="max-w-3xl">
-            <p className="animate-rise mb-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--acc)]">
-              <Package className="h-3.5 w-3.5" />{" "}
-              {category?.name ?? "Accessories"}
-              {product.deploymentType ? ` · ${product.deploymentType}` : ""}
-            </p>
-            <h1
-              className="animate-rise text-navy"
-              style={{ animationDelay: "0.06s" }}>
-              {product.name}
-            </h1>
-            <p
-              className="animate-rise mt-6 max-w-xl text-xl leading-relaxed text-text-secondary"
-              style={{ animationDelay: "0.14s" }}>
-              {product.tagline}
-            </p>
-            <div
-              className="animate-rise mt-10 flex flex-wrap items-center gap-4"
-              style={{ animationDelay: "0.22s" }}>
-              <Button
-                asChild
-                size="lg"
-                className="bg-[var(--acc)] text-[var(--ink)] hover:opacity-90">
-                <Link href={enquiry(product)}>
-                  Get a Quote <ArrowRight className="h-4 w-4" />
-                </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <Link href="/contact">Talk to an Expert</Link>
-              </Button>
+      {/* Hero — two-column: copy left, contained product image right */}
+      <section className="border-b border-border bg-background pt-28 pb-16 md:pt-32 md:pb-20">
+        <Container>
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <p className="animate-rise mb-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--acc)]">
+                <Package className="h-3.5 w-3.5" />{" "}
+                {category?.name ?? "Accessories"}
+                {product.deploymentType ? ` · ${product.deploymentType}` : ""}
+              </p>
+              <h1
+                className="animate-rise text-navy"
+                style={{ animationDelay: "0.06s" }}>
+                {product.name}
+              </h1>
+              <p
+                className="animate-rise mt-6 max-w-xl text-xl leading-relaxed text-text-secondary"
+                style={{ animationDelay: "0.14s" }}>
+                {product.tagline}
+              </p>
+              <div
+                className="animate-rise mt-10 flex flex-wrap items-center gap-4"
+                style={{ animationDelay: "0.22s" }}>
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-[var(--acc)] text-[var(--ink)] hover:opacity-90">
+                  <Link href={enquiry(product)}>
+                    Get a Quote <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button asChild size="lg" variant="outline">
+                  <Link href="/contact">Talk to an Expert</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="animate-rise" style={{ animationDelay: "0.18s" }}>
+              <div className="relative aspect-[4/3] w-full overflow-hidden p-8 md:p-10">
+                <SmartImage
+                  src={product.heroImage}
+                  alt={product.name}
+                  label={product.name}
+                  priority
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
         </Container>
-        {/* Full-width image band with ink scrim */}
-        <div
-          className="animate-rise relative mt-16 aspect-[16/7] w-full overflow-hidden md:aspect-[16/6]"
-          style={{ animationDelay: "0.18s" }}>
-          <SmartImage
-            src={product.heroImage}
-            alt={product.name}
-            label={product.name}
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)]/70 to-transparent" />
-        </div>
       </section>
 
       {/* Intro statement */}
@@ -119,18 +120,22 @@ export function AccessoryGridTemplate({
         </Section>
       )}
 
-      {/* Dual-image showcase */}
-      <section className="grid grid-cols-1 sm:grid-cols-2">
-        {["a", "b"].map((n) => (
+      {/* Dual-image showcase — contained on light bg (product shots, no crop) */}
+      <section className="grid grid-cols-1 border-y border-border sm:grid-cols-2">
+        {["a", "b"].map((n, idx) => (
           <div
             key={n}
-            className="relative aspect-[4/3] overflow-hidden bg-[var(--ink)] sm:aspect-square md:aspect-[4/3]">
+            className={`relative aspect-[4/3] bg-surface p-8 md:p-12 ${
+              idx === 0
+                ? "border-b border-border sm:border-b-0 sm:border-r"
+                : ""
+            }`}>
             <SmartImage
               src={`/images/products/${product.slug}/${n}.jpg`}
               alt={product.name}
               label={product.name}
+              className="object-contain"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)]/30 to-transparent" />
           </div>
         ))}
       </section>
