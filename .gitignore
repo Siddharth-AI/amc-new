@@ -76,3 +76,6 @@ prisma/*.db
 .github/
 agent_docs
 docs
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
