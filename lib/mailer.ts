@@ -1,24 +1,30 @@
 import nodemailer from "nodemailer";
 
 /**
- * Gmail SMTP transport. Configure in env:
- *   GMAIL_USER           = your.address@gmail.com
- *   GMAIL_APP_PASSWORD   = 16-char Google App Password (not your login password)
- *   MAIL_TO              = where enquiries should land (defaults to GMAIL_USER)
+ * SMTP transport (HostGator). Configure in env:
+ *   SMTP_HOST   = mail server host (e.g. gator4185.hostgator.com)
+ *   SMTP_PORT   = 587 (STARTTLS) or 465 (SSL)
+ *   SMTP_USER   = mailbox address, also used as "from"
+ *   SMTP_PASS   = mailbox password
+ *   MAIL_TO     = where enquiries should land (defaults to SMTP_USER)
  */
 export function getTransport() {
-  const user = process.env.GMAIL_USER;
-  const pass = process.env.GMAIL_APP_PASSWORD;
-  if (!user || !pass) {
-    throw new Error("Email is not configured (GMAIL_USER / GMAIL_APP_PASSWORD missing).");
+  const host = process.env.SMTP_HOST;
+  const port = Number(process.env.SMTP_PORT) || 587;
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+  if (!host || !user || !pass) {
+    throw new Error("Email is not configured (SMTP_HOST / SMTP_USER / SMTP_PASS missing).");
   }
   return nodemailer.createTransport({
-    service: "gmail",
+    host,
+    port,
+    secure: port === 465,
     auth: { user, pass },
   });
 }
 
-export const MAIL_TO = process.env.MAIL_TO || process.env.GMAIL_USER || "";
+export const MAIL_TO = process.env.MAIL_TO || process.env.SMTP_USER || "";
 
 export async function sendMail(opts: {
   subject: string;
@@ -27,7 +33,7 @@ export async function sendMail(opts: {
   replyTo?: string;
 }) {
   const transport = getTransport();
-  const from = process.env.GMAIL_USER;
+  const from = process.env.SMTP_USER;
   await transport.sendMail({
     from: `"AMC Systems Website" <${from}>`,
     to: MAIL_TO,
