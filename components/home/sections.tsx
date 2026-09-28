@@ -136,9 +136,9 @@ export function WhyChooseUs() {
 
 /* ----------------------------------------------------------------- Reviews */
 const REVIEWS = [
-  { name: "Ahmed Al Mansoori", role: "CEO, Dubai Retail Group", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80", text: "Working with AMC Systems for over a decade has been transformational. Their experience shows in every solution they deliver." },
-  { name: "Sarah Johnson", role: "Operations Director, Tech Solutions LLC", avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80", text: "The depth of their industry knowledge is invaluable. They know exactly what works and what doesn't." },
-  { name: "Mohammed Hassan", role: "Store Manager, SuperMart UAE", avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80", text: "The best business solutions provider in the UAE — reliable, battle-tested systems and brilliant support." },
+  { name: "Jeddah", role: "Business Owner", avatar: "https://ui-avatars.com/api/?name=Jeddah&background=0B5563&color=fff&size=200", text: "We are very satisfied with the software and especially with the way it was taught to us. Sir Dave explained everything and specifically, making sure we understood each step. He was extremely patient and always ready to guide us whenever we need help. The training became smoother and more effective. Both of them were always available whenever we had questions or needed assistance. Their dedication and professionalism truly made a big difference. Highly recommend!" },
+  { name: "Anjienet Asanulla", role: "Business Manager", avatar: "https://ui-avatars.com/api/?name=Anjienet+Asanulla&background=0B5563&color=fff&size=200", text: "Hi I would like to give a feedback and good experience with this company. My experience is excellent, the data is friendly user and the management is easy to reach out specially sir Dave. Every time I have concerns or question he solve my concern in just a minute. I highly recommend this company." },
+  { name: "Kimberly Thorne", role: "Client", avatar: "https://ui-avatars.com/api/?name=Kimberly+Thorne&background=0B5563&color=fff&size=200", text: "Dave has been incredible to work with, always super responsive, accommodating, and genuinely friendly. No matter the situation, he goes out of his way to help and make things easier. It's rare to find someone so consistent, communicative, and kind. Truly a pleasure every time! Highly recommend working with him." },
 ];
 
 export function Reviews() {
@@ -173,6 +173,13 @@ export function Reviews() {
               </motion.figure>
             ))}
           </div>
+          <motion.div variants={fadeUp} className="mt-10 flex justify-center">
+            <Button asChild size="lg" variant="outline">
+              <a href="https://www.google.com/maps/place/AMC+Systems/@25.3238423,55.3823568,17z/data=!4m8!3m7!1s0x3e5f5f269ea94e35:0x49ec981b9e1f92dd!8m2!3d25.3238423!4d55.3823568!9m1!1b1!16s%2Fg%2F11bbwxcrdz" target="_blank" rel="noopener noreferrer">
+                View all reviews on Google <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+            </Button>
+          </motion.div>
         </motion.div>
       </Container>
     </Section>

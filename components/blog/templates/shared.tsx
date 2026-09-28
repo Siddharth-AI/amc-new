@@ -35,20 +35,25 @@ export function Byline({
   const base = tone === "dark" ? "text-white/65" : "text-text-muted";
   const strong = tone === "dark" ? "text-white" : "text-navy";
   return (
-    <div className={`flex flex-wrap items-center gap-x-6 gap-y-2 text-sm ${base}`}>
-      <span className="inline-flex items-center gap-2">
-        <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[var(--acc)]/15 text-[var(--acc)]">
-          <User className="h-4 w-4" />
+    <div>
+      <div className={`flex flex-wrap items-center gap-x-6 gap-y-2 text-sm ${base}`}>
+        <span className="inline-flex items-center gap-2">
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[var(--acc)]/15 text-[var(--acc)]">
+            <User className="h-4 w-4" />
+          </span>
+          <span className={`font-medium ${strong}`}>{article.author}</span>
+          {article.authorRole ? <span>· {article.authorRole}</span> : null}
         </span>
-        <span className={`font-medium ${strong}`}>{article.author}</span>
-        {article.authorRole ? <span>· {article.authorRole}</span> : null}
-      </span>
-      <span className="inline-flex items-center gap-1.5">
-        <Calendar className="h-4 w-4" /> {formatDate(article.publishDate)}
-      </span>
-      <span className="inline-flex items-center gap-1.5">
-        <Clock className="h-4 w-4" /> {article.readingTime} min read
-      </span>
+        <span className="inline-flex items-center gap-1.5">
+          <Calendar className="h-4 w-4" /> {formatDate(article.publishDate)}
+        </span>
+        <span className="inline-flex items-center gap-1.5">
+          <Clock className="h-4 w-4" /> {article.readingTime} min read
+        </span>
+      </div>
+      <p className={`mt-3 text-xs italic ${base}`}>
+        Educational content about business technology
+      </p>
     </div>
   );
 }
